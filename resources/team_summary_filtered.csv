@@ -1,0 +1,1230 @@
+,season,league,team,strength_of_schedule,playoffs,updated_abbreviation
+31,2021,NBA,Chicago Bulls,-0.05,False,Chi
+32,2021,NBA,Charlotte Hornets,-0.01,False,Cha
+33,2021,NBA,Cleveland Cavaliers,0.25,False,Cle
+34,2021,NBA,Detroit Pistons,0.09,False,Det
+35,2021,NBA,Golden State Warriors,0.04,False,GS
+36,2021,NBA,Houston Rockets,0.4,False,Hou
+37,2021,NBA,Indiana Pacers,-0.08,False,Ind
+38,2021,NBA,Minnesota Timberwolves,0.31,False,Min
+39,2021,NBA,New Orleans Pelicans,0.1,False,NO
+40,2021,NBA,Oklahoma City Thunder,0.51,False,OkC
+41,2021,NBA,Orlando Magic,0.29,False,Orl
+42,2021,NBA,Sacramento Kings,0.23,False,Sac
+43,2021,NBA,San Antonio Spurs,0.15,False,SA
+44,2021,NBA,Toronto Raptors,-0.07,False,Tor
+45,2021,NBA,Utah Jazz,-0.29,False,Uta
+46,2021,NBA,Los Angeles Clippers,-0.16,False,LAC
+47,2021,NBA,Phoenix Suns,-0.15,False,Pho
+48,2021,NBA,Milwaukee Bucks,-0.32,False,Mil
+49,2021,NBA,Philadelphia 76ers,-0.31,False,Phi
+50,2021,NBA,Denver Nuggets,-0.11,False,Den
+51,2021,NBA,Brooklyn Nets,-0.27,False,Bkn
+52,2021,NBA,Los Angeles Lakers,-0.03,False,LAL
+53,2021,NBA,Dallas Mavericks,-0.01,False,Dal
+54,2021,NBA,Atlanta Hawks,-0.18,False,Atl
+55,2021,NBA,New York Knicks,-0.18,False,NY
+56,2021,NBA,Portland Trail Blazers,0.01,False,Por
+57,2021,NBA,Boston Celtics,-0.14,False,Bos
+58,2021,NBA,Memphis Grizzlies,0.04,False,Mem
+59,2021,NBA,Miami Heat,-0.09,False,Mia
+60,2021,NBA,Washington Wizards,-0.01,False,Wsh
+61,2021,NBA,League Average,0.0,False,LGAvg
+62,2020,NBA,Atlanta Hawks,0.27,False,Atl
+63,2020,NBA,Boston Celtics,-0.47,True,Bos
+64,2020,NBA,Brooklyn Nets,-0.44,True,Bkn
+65,2020,NBA,Chicago Bulls,-0.93,False,Chi
+66,2020,NBA,Charlotte Hornets,-0.28,False,Cha
+67,2020,NBA,Cleveland Cavaliers,0.12,False,Cle
+68,2020,NBA,Dallas Mavericks,-0.07,True,Dal
+69,2020,NBA,Denver Nuggets,0.24,True,Den
+70,2020,NBA,Detroit Pistons,-0.82,False,Det
+71,2020,NBA,Golden State Warriors,0.59,False,GS
+72,2020,NBA,Houston Rockets,0.17,True,Hou
+73,2020,NBA,Indiana Pacers,-0.33,True,Ind
+74,2020,NBA,Los Angeles Clippers,0.21,True,LAC
+75,2020,NBA,Los Angeles Lakers,0.49,True,LAL
+76,2020,NBA,Memphis Grizzlies,0.16,False,Mem
+77,2020,NBA,Miami Heat,-0.35,True,Mia
+78,2020,NBA,Milwaukee Bucks,-0.67,True,Mil
+79,2020,NBA,Minnesota Timberwolves,0.28,False,Min
+80,2020,NBA,New Orleans Pelicans,0.74,False,NO
+81,2020,NBA,New York Knicks,-0.26,False,NY
+82,2020,NBA,Oklahoma City Thunder,0.34,True,OkC
+83,2020,NBA,Orlando Magic,0.09,True,Orl
+84,2020,NBA,Philadelphia 76ers,-0.13,True,Phi
+85,2020,NBA,Phoenix Suns,0.35,False,Pho
+86,2020,NBA,Portland Trail Blazers,0.54,True,Por
+87,2020,NBA,Sacramento Kings,0.46,False,Sac
+88,2020,NBA,San Antonio Spurs,0.46,False,SA
+89,2020,NBA,Toronto Raptors,-0.26,True,Tor
+90,2020,NBA,Utah Jazz,0.05,True,Uta
+91,2020,NBA,Washington Wizards,-0.57,False,Wsh
+92,2020,NBA,League Average,0.0,False,LGAvg
+93,2019,NBA,Atlanta Hawks,-0.04,False,Atl
+94,2019,NBA,Boston Celtics,-0.54,True,Bos
+95,2019,NBA,Brooklyn Nets,-0.33,True,Bkn
+96,2019,NBA,Chicago Bulls,0.1,False,Chi
+97,2019,NBA,Charlotte Hornets,-0.22,False,Cha
+98,2019,NBA,Cleveland Cavaliers,0.22,False,Cle
+99,2019,NBA,Dallas Mavericks,0.42,False,Dal
+100,2019,NBA,Denver Nuggets,0.24,True,Den
+101,2019,NBA,Detroit Pistons,-0.31,True,Det
+102,2019,NBA,Golden State Warriors,-0.04,True,GS
+103,2019,NBA,Houston Rockets,0.19,True,Hou
+104,2019,NBA,Indiana Pacers,-0.57,True,Ind
+105,2019,NBA,Los Angeles Clippers,0.23,True,LAC
+106,2019,NBA,Los Angeles Lakers,0.39,False,LAL
+107,2019,NBA,Memphis Grizzlies,0.51,False,Mem
+108,2019,NBA,Miami Heat,-0.22,False,Mia
+109,2019,NBA,Milwaukee Bucks,-0.82,True,Mil
+110,2019,NBA,Minnesota Timberwolves,0.48,False,Min
+111,2019,NBA,New Orleans Pelicans,0.23,False,NO
+112,2019,NBA,New York Knicks,0.28,False,NY
+113,2019,NBA,Oklahoma City Thunder,0.15,True,OkC
+114,2019,NBA,Orlando Magic,-0.43,True,Orl
+115,2019,NBA,Philadelphia 76ers,-0.44,True,Phi
+116,2019,NBA,Phoenix Suns,0.73,False,Pho
+117,2019,NBA,Portland Trail Blazers,0.24,True,Por
+118,2019,NBA,Sacramento Kings,0.31,False,Sac
+119,2019,NBA,San Antonio Spurs,0.12,True,SA
+120,2019,NBA,Toronto Raptors,-0.6,True,Tor
+121,2019,NBA,Utah Jazz,0.03,True,Uta
+122,2019,NBA,Washington Wizards,-0.4,False,Wsh
+123,2019,NBA,League Average,0.0,False,LGAvg
+124,2018,NBA,Atlanta Hawks,0.15,False,Atl
+125,2018,NBA,Boston Celtics,-0.35,True,Bos
+126,2018,NBA,Brooklyn Nets,0.07,False,Bkn
+127,2018,NBA,Chicago Bulls,0.2,False,Chi
+128,2018,NBA,Charlotte Hornets,-0.19,False,Cha
+129,2018,NBA,Cleveland Cavaliers,-0.35,True,Cle
+130,2018,NBA,Dallas Mavericks,0.34,False,Dal
+131,2018,NBA,Denver Nuggets,0.09,False,Den
+132,2018,NBA,Detroit Pistons,-0.11,False,Det
+133,2018,NBA,Golden State Warriors,-0.19,True,GS
+134,2018,NBA,Houston Rockets,-0.27,True,Hou
+135,2018,NBA,Indiana Pacers,-0.2,True,Ind
+136,2018,NBA,Los Angeles Clippers,0.11,False,LAC
+137,2018,NBA,Los Angeles Lakers,0.11,False,LAL
+138,2018,NBA,Memphis Grizzlies,0.39,False,Mem
+139,2018,NBA,Miami Heat,-0.33,True,Mia
+140,2018,NBA,Milwaukee Bucks,-0.15,True,Mil
+141,2018,NBA,Minnesota Timberwolves,0.12,True,Min
+142,2018,NBA,New Orleans Pelicans,0.18,True,NO
+143,2018,NBA,New York Knicks,0.03,False,NY
+144,2018,NBA,Oklahoma City Thunder,0.0,True,OkC
+145,2018,NBA,Orlando Magic,-0.1,False,Orl
+146,2018,NBA,Philadelphia 76ers,-0.2,True,Phi
+147,2018,NBA,Phoenix Suns,0.57,False,Pho
+148,2018,NBA,Portland Trail Blazers,0.0,True,Por
+149,2018,NBA,Sacramento Kings,0.39,False,Sac
+150,2018,NBA,San Antonio Spurs,0.0,True,SA
+151,2018,NBA,Toronto Raptors,-0.49,True,Tor
+152,2018,NBA,Utah Jazz,0.17,True,Uta
+153,2018,NBA,Washington Wizards,-0.06,True,Wsh
+154,2018,NBA,League Average,0.0,False,LGAvg
+155,2017,NBA,Atlanta Hawks,-0.38,True,Atl
+156,2017,NBA,Boston Celtics,-0.39,True,Bos
+157,2017,NBA,Brooklyn Nets,-0.01,False,Bkn
+158,2017,NBA,Chicago Bulls,-0.39,True,Chi
+159,2017,NBA,Charlotte Hornets,-0.26,False,Cha
+160,2017,NBA,Cleveland Cavaliers,-0.31,True,Cle
+161,2017,NBA,Dallas Mavericks,0.4,False,Dal
+162,2017,NBA,Denver Nuggets,0.19,False,Den
+163,2017,NBA,Detroit Pistons,-0.17,False,Det
+164,2017,NBA,Golden State Warriors,-0.28,True,GS
+165,2017,NBA,Houston Rockets,0.08,True,Hou
+166,2017,NBA,Indiana Pacers,-0.42,True,Ind
+167,2017,NBA,Los Angeles Clippers,0.13,True,LAC
+168,2017,NBA,Los Angeles Lakers,0.58,False,LAL
+169,2017,NBA,Memphis Grizzlies,0.47,True,Mem
+170,2017,NBA,Miami Heat,-0.29,False,Mia
+171,2017,NBA,Milwaukee Bucks,-0.26,True,Mil
+172,2017,NBA,Minnesota Timberwolves,0.47,False,Min
+173,2017,NBA,New Orleans Pelicans,0.41,False,NO
+174,2017,NBA,New York Knicks,-0.2,False,NY
+175,2017,NBA,Oklahoma City Thunder,0.39,True,OkC
+176,2017,NBA,Orlando Magic,-0.04,False,Orl
+177,2017,NBA,Philadelphia 76ers,-0.14,False,Phi
+178,2017,NBA,Phoenix Suns,0.49,False,Pho
+179,2017,NBA,Portland Trail Blazers,0.3,True,Por
+180,2017,NBA,Sacramento Kings,0.58,False,Sac
+181,2017,NBA,San Antonio Spurs,-0.06,True,SA
+182,2017,NBA,Toronto Raptors,-0.56,True,Tor
+183,2017,NBA,Utah Jazz,0.06,True,Uta
+184,2017,NBA,Washington Wizards,-0.45,True,Wsh
+185,2017,NBA,League Average,0.0,False,LGAvg
+186,2016,NBA,Atlanta Hawks,-0.12,True,Atl
+187,2016,NBA,Boston Celtics,-0.37,True,Bos
+188,2016,NBA,Brooklyn Nets,0.24,False,Bkn
+189,2016,NBA,Chicago Bulls,0.01,False,Chi
+190,2016,NBA,Charlotte Hornets,-0.36,True,Cha
+191,2016,NBA,Cleveland Cavaliers,-0.55,True,Cle
+192,2016,NBA,Dallas Mavericks,0.29,True,Dal
+193,2016,NBA,Denver Nuggets,0.29,False,Den
+194,2016,NBA,Detroit Pistons,-0.18,True,Det
+195,2016,NBA,Golden State Warriors,-0.38,True,GS
+196,2016,NBA,Houston Rockets,0.14,True,Hou
+197,2016,NBA,Indiana Pacers,-0.09,True,Ind
+198,2016,NBA,Los Angeles Clippers,-0.15,True,LAC
+199,2016,NBA,Los Angeles Lakers,0.64,False,LAL
+200,2016,NBA,Memphis Grizzlies,0.11,True,Mem
+201,2016,NBA,Miami Heat,-0.14,True,Mia
+202,2016,NBA,Milwaukee Bucks,0.2,False,Mil
+203,2016,NBA,Minnesota Timberwolves,0.15,False,Min
+204,2016,NBA,New Orleans Pelicans,0.24,False,NO
+205,2016,NBA,New York Knicks,0.0,False,NY
+206,2016,NBA,Oklahoma City Thunder,-0.19,True,OkC
+207,2016,NBA,Orlando Magic,-0.06,False,Orl
+208,2016,NBA,Philadelphia 76ers,0.31,False,Phi
+209,2016,NBA,Phoenix Suns,0.34,False,Pho
+210,2016,NBA,Portland Trail Blazers,0.15,True,Por
+211,2016,NBA,Sacramento Kings,0.16,False,Sac
+212,2016,NBA,San Antonio Spurs,-0.36,True,SA
+213,2016,NBA,Toronto Raptors,-0.42,True,Tor
+214,2016,NBA,Utah Jazz,0.05,False,Uta
+215,2016,NBA,Washington Wizards,0.0,False,Wsh
+216,2016,NBA,League Average,0.0,False,LGAvg
+217,2015,NBA,Atlanta Hawks,-0.68,True,Atl
+218,2015,NBA,Boston Celtics,-0.56,True,Bos
+219,2015,NBA,Brooklyn Nets,-0.25,True,Bkn
+220,2015,NBA,Chicago Bulls,-0.46,True,Chi
+221,2015,NBA,Charlotte Hornets,-0.27,False,Cha
+222,2015,NBA,Cleveland Cavaliers,-0.4,True,Cle
+223,2015,NBA,Dallas Mavericks,0.46,True,Dal
+224,2015,NBA,Denver Nuggets,0.48,False,Den
+225,2015,NBA,Detroit Pistons,-0.39,False,Det
+226,2015,NBA,Golden State Warriors,-0.09,True,GS
+227,2015,NBA,Houston Rockets,0.38,True,Hou
+228,2015,NBA,Indiana Pacers,-0.51,False,Ind
+229,2015,NBA,Los Angeles Clippers,0.22,True,LAC
+230,2015,NBA,Los Angeles Lakers,0.67,False,LAL
+231,2015,NBA,Memphis Grizzlies,0.38,True,Mem
+232,2015,NBA,Miami Heat,-0.32,False,Mia
+233,2015,NBA,Milwaukee Bucks,-0.52,True,Mil
+234,2015,NBA,Minnesota Timberwolves,0.79,False,Min
+235,2015,NBA,New Orleans Pelicans,0.34,True,NO
+236,2015,NBA,New York Knicks,-0.18,False,NY
+237,2015,NBA,Oklahoma City Thunder,0.28,False,OkC
+238,2015,NBA,Orlando Magic,-0.15,False,Orl
+239,2015,NBA,Philadelphia 76ers,-0.07,False,Phi
+240,2015,NBA,Phoenix Suns,0.52,False,Pho
+241,2015,NBA,Portland Trail Blazers,0.18,True,Por
+242,2015,NBA,Sacramento Kings,0.64,False,Sac
+243,2015,NBA,San Antonio Spurs,0.14,True,SA
+244,2015,NBA,Toronto Raptors,-0.62,True,Tor
+245,2015,NBA,Utah Jazz,0.49,False,Uta
+246,2015,NBA,Washington Wizards,-0.55,True,Wsh
+247,2015,NBA,League Average,0.0,False,LGAvg
+248,2014,NBA,Atlanta Hawks,-0.4,True,Atl
+249,2014,NBA,Boston Celtics,-0.51,False,Bos
+250,2014,NBA,Brooklyn Nets,-0.58,True,Bkn
+251,2014,NBA,Charlotte Bobcats,-0.67,True,ChB
+252,2014,NBA,Chicago Bulls,-0.66,True,Chi
+253,2014,NBA,Cleveland Cavaliers,-0.57,False,Cle
+254,2014,NBA,Dallas Mavericks,0.5,True,Dal
+255,2014,NBA,Denver Nuggets,0.75,False,Den
+256,2014,NBA,Detroit Pistons,-0.48,False,Det
+257,2014,NBA,Golden State Warriors,0.34,True,GS
+258,2014,NBA,Houston Rockets,0.5,True,Hou
+259,2014,NBA,Indiana Pacers,-0.77,True,Ind
+260,2014,NBA,Los Angeles Clippers,0.3,True,LAC
+261,2014,NBA,Los Angeles Lakers,0.96,False,LAL
+262,2014,NBA,Memphis Grizzlies,0.61,True,Mem
+263,2014,NBA,Miami Heat,-0.61,True,Mia
+264,2014,NBA,Milwaukee Bucks,-0.23,False,Mil
+265,2014,NBA,Minnesota Timberwolves,0.43,False,Min
+266,2014,NBA,New Orleans Pelicans,0.73,False,NO
+267,2014,NBA,New York Knicks,-0.61,False,NY
+268,2014,NBA,Oklahoma City Thunder,0.32,True,OkC
+269,2014,NBA,Orlando Magic,-0.44,False,Orl
+270,2014,NBA,Philadelphia 76ers,-0.21,False,Phi
+271,2014,NBA,Phoenix Suns,0.39,False,Pho
+272,2014,NBA,Portland Trail Blazers,0.45,True,Por
+273,2014,NBA,Sacramento Kings,0.82,False,Sac
+274,2014,NBA,San Antonio Spurs,0.28,True,SA
+275,2014,NBA,Toronto Raptors,-0.69,True,Tor
+276,2014,NBA,Utah Jazz,0.91,False,Uta
+277,2014,NBA,Washington Wizards,-0.79,True,Wsh
+278,2014,NBA,League Average,0.0,False,LGAvg
+279,2013,NBA,Atlanta Hawks,-0.48,True,Atl
+280,2013,NBA,Boston Celtics,-0.4,True,Bos
+281,2013,NBA,Brooklyn Nets,-0.53,True,Bkn
+282,2013,NBA,Charlotte Bobcats,-0.06,False,ChB
+283,2013,NBA,Chicago Bulls,-0.33,True,Chi
+284,2013,NBA,Cleveland Cavaliers,-0.19,False,Cle
+285,2013,NBA,Dallas Mavericks,0.36,False,Dal
+286,2013,NBA,Denver Nuggets,0.28,True,Den
+287,2013,NBA,Detroit Pistons,-0.34,False,Det
+288,2013,NBA,Golden State Warriors,0.42,True,GS
+289,2013,NBA,Houston Rockets,0.22,True,Hou
+290,2013,NBA,Indiana Pacers,-0.69,True,Ind
+291,2013,NBA,Los Angeles Clippers,-0.02,True,LAC
+292,2013,NBA,Los Angeles Lakers,0.32,True,LAL
+293,2013,NBA,Memphis Grizzlies,0.18,True,Mem
+294,2013,NBA,Miami Heat,-0.84,True,Mia
+295,2013,NBA,Milwaukee Bucks,-0.33,True,Mil
+296,2013,NBA,Minnesota Timberwolves,0.54,False,Min
+297,2013,NBA,New Orleans Hornets,0.75,False,NOH
+298,2013,NBA,New York Knicks,-0.5,True,NY
+299,2013,NBA,Oklahoma City Thunder,-0.06,True,OkC
+300,2013,NBA,Orlando Magic,-0.14,False,Orl
+301,2013,NBA,Philadelphia 76ers,-0.17,False,Phi
+302,2013,NBA,Phoenix Suns,0.71,False,Pho
+303,2013,NBA,Portland Trail Blazers,0.65,False,Por
+304,2013,NBA,Sacramento Kings,0.62,False,Sac
+305,2013,NBA,San Antonio Spurs,0.27,True,SA
+306,2013,NBA,Toronto Raptors,-0.48,False,Tor
+307,2013,NBA,Utah Jazz,0.38,False,Uta
+308,2013,NBA,Washington Wizards,-0.25,False,Wsh
+309,2013,NBA,League Average,0.0,False,LGAvg
+310,2012,NBA,Atlanta Hawks,-0.77,True,Atl
+311,2012,NBA,Boston Celtics,-0.26,True,Bos
+312,2012,NBA,Charlotte Bobcats,-0.05,False,ChB
+313,2012,NBA,Chicago Bulls,-0.76,True,Chi
+314,2012,NBA,Cleveland Cavaliers,-0.14,False,Cle
+315,2012,NBA,Dallas Mavericks,0.83,True,Dal
+316,2012,NBA,Denver Nuggets,0.29,True,Den
+317,2012,NBA,Detroit Pistons,-0.4,False,Det
+318,2012,NBA,Golden State Warriors,0.62,False,GS
+319,2012,NBA,Houston Rockets,0.35,False,Hou
+320,2012,NBA,Indiana Pacers,-0.71,True,Ind
+321,2012,NBA,Los Angeles Clippers,0.26,True,LAC
+322,2012,NBA,Los Angeles Lakers,0.54,True,LAL
+323,2012,NBA,Memphis Grizzlies,0.42,True,Mem
+324,2012,NBA,Miami Heat,-0.27,True,Mia
+325,2012,NBA,Milwaukee Bucks,-0.5,False,Mil
+326,2012,NBA,Minnesota Timberwolves,0.37,False,Min
+327,2012,NBA,New Jersey Nets,-0.39,False,NJ
+328,2012,NBA,New Orleans Hornets,0.65,False,NOH
+329,2012,NBA,New York Knicks,-0.81,True,NY
+330,2012,NBA,Oklahoma City Thunder,0.32,True,OkC
+331,2012,NBA,Orlando Magic,-0.33,True,Orl
+332,2012,NBA,Philadelphia 76ers,-0.65,True,Phi
+333,2012,NBA,Phoenix Suns,0.53,False,Pho
+334,2012,NBA,Portland Trail Blazers,0.41,False,Por
+335,2012,NBA,Sacramento Kings,0.73,False,Sac
+336,2012,NBA,San Antonio Spurs,0.11,True,SA
+337,2012,NBA,Toronto Raptors,-0.36,False,Tor
+338,2012,NBA,Utah Jazz,0.3,True,Uta
+339,2012,NBA,Washington Wizards,-0.34,False,Wsh
+340,2012,NBA,League Average,0.0,False,LGAvg
+341,2011,NBA,Atlanta Hawks,-0.28,True,Atl
+342,2011,NBA,Boston Celtics,-0.54,True,Bos
+343,2011,NBA,Charlotte Bobcats,-0.08,False,ChB
+344,2011,NBA,Chicago Bulls,-0.79,True,Chi
+345,2011,NBA,Cleveland Cavaliers,0.14,False,Cle
+346,2011,NBA,Dallas Mavericks,0.18,True,Dal
+347,2011,NBA,Denver Nuggets,0.05,True,Den
+348,2011,NBA,Detroit Pistons,-0.18,False,Det
+349,2011,NBA,Golden State Warriors,0.33,False,GS
+350,2011,NBA,Houston Rockets,0.19,False,Hou
+351,2011,NBA,Indiana Pacers,-0.3,True,Ind
+352,2011,NBA,Los Angeles Clippers,0.42,False,LAC
+353,2011,NBA,Los Angeles Lakers,-0.1,True,LAL
+354,2011,NBA,Memphis Grizzlies,0.2,True,Mem
+355,2011,NBA,Miami Heat,-0.71,True,Mia
+356,2011,NBA,Milwaukee Bucks,-0.17,False,Mil
+357,2011,NBA,Minnesota Timberwolves,0.67,False,Min
+358,2011,NBA,New Jersey Nets,-0.04,False,NJ
+359,2011,NBA,New Orleans Hornets,0.39,True,NOH
+360,2011,NBA,New York Knicks,-0.3,True,NY
+361,2011,NBA,Oklahoma City Thunder,0.02,True,OkC
+362,2011,NBA,Orlando Magic,-0.54,True,Orl
+363,2011,NBA,Philadelphia 76ers,-0.5,True,Phi
+364,2011,NBA,Phoenix Suns,0.43,False,Pho
+365,2011,NBA,Portland Trail Blazers,0.32,True,Por
+366,2011,NBA,Sacramento Kings,0.54,False,Sac
+367,2011,NBA,San Antonio Spurs,0.16,True,SA
+368,2011,NBA,Toronto Raptors,0.01,False,Tor
+369,2011,NBA,Utah Jazz,0.39,False,Uta
+370,2011,NBA,Washington Wizards,0.11,False,Wsh
+371,2011,NBA,League Average,0.0,False,LGAvg
+372,2010,NBA,Atlanta Hawks,-0.22,True,Atl
+373,2010,NBA,Boston Celtics,-0.29,True,Bos
+374,2010,NBA,Charlotte Bobcats,-0.17,True,ChB
+375,2010,NBA,Chicago Bulls,0.0,True,Chi
+376,2010,NBA,Cleveland Cavaliers,-0.36,True,Cle
+377,2010,NBA,Dallas Mavericks,-0.06,True,Dal
+378,2010,NBA,Denver Nuggets,0.06,True,Den
+379,2010,NBA,Detroit Pistons,0.09,False,Det
+380,2010,NBA,Golden State Warriors,0.32,False,GS
+381,2010,NBA,Houston Rockets,0.35,False,Hou
+382,2010,NBA,Indiana Pacers,-0.1,False,Ind
+383,2010,NBA,Los Angeles Clippers,0.34,False,LAC
+384,2010,NBA,Los Angeles Lakers,0.06,True,LAL
+385,2010,NBA,Memphis Grizzlies,0.13,False,Mem
+386,2010,NBA,Miami Heat,-0.29,True,Mia
+387,2010,NBA,Milwaukee Bucks,-0.32,True,Mil
+388,2010,NBA,Minnesota Timberwolves,0.54,False,Min
+389,2010,NBA,New Jersey Nets,0.19,False,NJ
+390,2010,NBA,New Orleans Hornets,0.19,False,NOH
+391,2010,NBA,New York Knicks,-0.19,False,NY
+392,2010,NBA,Oklahoma City Thunder,0.06,True,OkC
+393,2010,NBA,Orlando Magic,-0.37,True,Orl
+394,2010,NBA,Philadelphia 76ers,-0.03,False,Phi
+395,2010,NBA,Phoenix Suns,-0.23,True,Pho
+396,2010,NBA,Portland Trail Blazers,-0.13,True,Por
+397,2010,NBA,Sacramento Kings,0.3,False,Sac
+398,2010,NBA,San Antonio Spurs,-0.02,True,SA
+399,2010,NBA,Toronto Raptors,-0.05,False,Tor
+400,2010,NBA,Utah Jazz,-0.01,True,Uta
+401,2010,NBA,Washington Wizards,0.06,False,Wsh
+402,2010,NBA,League Average,-0.01,False,LGAvg
+403,2009,NBA,Atlanta Hawks,0.13,True,Atl
+404,2009,NBA,Boston Celtics,-0.07,True,Bos
+405,2009,NBA,Charlotte Bobcats,0.07,False,ChB
+406,2009,NBA,Chicago Bulls,0.12,True,Chi
+407,2009,NBA,Cleveland Cavaliers,-0.25,True,Cle
+408,2009,NBA,Dallas Mavericks,-0.3,True,Dal
+409,2009,NBA,Denver Nuggets,-0.29,True,Den
+410,2009,NBA,Detroit Pistons,0.13,True,Det
+411,2009,NBA,Golden State Warriors,-0.06,False,GS
+412,2009,NBA,Houston Rockets,-0.27,True,Hou
+413,2009,NBA,Indiana Pacers,0.35,False,Ind
+414,2009,NBA,Los Angeles Clippers,0.3,False,LAC
+415,2009,NBA,Los Angeles Lakers,-0.55,True,LAL
+416,2009,NBA,Memphis Grizzlies,0.24,False,Mem
+417,2009,NBA,Miami Heat,0.23,True,Mia
+418,2009,NBA,Milwaukee Bucks,0.21,False,Mil
+419,2009,NBA,Minnesota Timberwolves,0.18,False,Min
+420,2009,NBA,New Jersey Nets,0.13,False,NJ
+421,2009,NBA,New Orleans Hornets,-0.14,True,NOH
+422,2009,NBA,New York Knicks,0.28,False,NY
+423,2009,NBA,Oklahoma City Thunder,0.06,False,OkC
+424,2009,NBA,Orlando Magic,-0.21,True,Orl
+425,2009,NBA,Philadelphia 76ers,0.09,True,Phi
+426,2009,NBA,Phoenix Suns,-0.31,False,Pho
+427,2009,NBA,Portland Trail Blazers,-0.35,True,Por
+428,2009,NBA,Sacramento Kings,0.16,False,Sac
+429,2009,NBA,San Antonio Spurs,-0.4,True,SA
+430,2009,NBA,Toronto Raptors,0.28,False,Tor
+431,2009,NBA,Utah Jazz,-0.34,True,Uta
+432,2009,NBA,Washington Wizards,0.48,False,Wsh
+433,2009,NBA,League Average,0.0,False,LGAvg
+434,2008,NBA,Atlanta Hawks,-0.41,True,Atl
+435,2008,NBA,Boston Celtics,-0.95,True,Bos
+436,2008,NBA,Charlotte Bobcats,-0.11,False,ChB
+437,2008,NBA,Chicago Bulls,-0.11,False,Chi
+438,2008,NBA,Cleveland Cavaliers,-0.17,True,Cle
+439,2008,NBA,Dallas Mavericks,0.16,True,Dal
+440,2008,NBA,Denver Nuggets,0.03,True,Den
+441,2008,NBA,Detroit Pistons,-0.72,True,Det
+442,2008,NBA,Golden State Warriors,0.17,False,GS
+443,2008,NBA,Houston Rockets,0.15,True,Hou
+444,2008,NBA,Indiana Pacers,-0.46,False,Ind
+445,2008,NBA,Los Angeles Clippers,0.71,False,LAC
+446,2008,NBA,Los Angeles Lakers,0.09,True,LAL
+447,2008,NBA,Memphis Grizzlies,0.45,False,Mem
+448,2008,NBA,Miami Heat,0.11,False,Mia
+449,2008,NBA,Milwaukee Bucks,-0.03,False,Mil
+450,2008,NBA,Minnesota Timberwolves,0.52,False,Min
+451,2008,NBA,New Jersey Nets,-0.09,False,NJ
+452,2008,NBA,New Orleans Hornets,0.18,True,NOH
+453,2008,NBA,New York Knicks,0.06,False,NY
+454,2008,NBA,Orlando Magic,-0.68,True,Orl
+455,2008,NBA,Philadelphia 76ers,-0.23,True,Phi
+456,2008,NBA,Phoenix Suns,0.09,True,Pho
+457,2008,NBA,Portland Trail Blazers,0.45,False,Por
+458,2008,NBA,Sacramento Kings,0.4,False,Sac
+459,2008,NBA,San Antonio Spurs,0.31,True,SA
+460,2008,NBA,Seattle SuperSonics,0.72,False,Sea
+461,2008,NBA,Toronto Raptors,-0.44,True,Tor
+462,2008,NBA,Utah Jazz,-0.01,True,Uta
+463,2008,NBA,Washington Wizards,-0.28,True,Wsh
+464,2008,NBA,League Average,0.0,False,LGAvg
+465,2007,NBA,Atlanta Hawks,-0.1,False,Atl
+466,2007,NBA,Boston Celtics,-0.29,False,Bos
+467,2007,NBA,Charlotte Bobcats,-0.22,False,ChB
+468,2007,NBA,Chicago Bulls,-0.49,True,Chi
+469,2007,NBA,Cleveland Cavaliers,-0.5,True,Cle
+470,2007,NBA,Dallas Mavericks,0.06,True,Dal
+471,2007,NBA,Denver Nuggets,0.07,True,Den
+472,2007,NBA,Detroit Pistons,-0.47,True,Det
+473,2007,NBA,Golden State Warriors,0.34,True,GS
+474,2007,NBA,Houston Rockets,0.19,True,Hou
+475,2007,NBA,Indiana Pacers,-0.18,False,Ind
+476,2007,NBA,Los Angeles Clippers,0.39,False,LAC
+477,2007,NBA,Los Angeles Lakers,0.32,True,LAL
+478,2007,NBA,Memphis Grizzlies,0.71,False,Mem
+479,2007,NBA,Miami Heat,-0.29,True,Mia
+480,2007,NBA,Milwaukee Bucks,-0.06,False,Mil
+481,2007,NBA,Minnesota Timberwolves,0.51,False,Min
+482,2007,NBA,New Jersey Nets,-0.23,True,NJ
+483,2007,NBA,New Orleans/Oklahoma City Hornets,0.38,False,NOk
+484,2007,NBA,New York Knicks,-0.21,False,NY
+485,2007,NBA,Orlando Magic,-0.43,True,Orl
+486,2007,NBA,Philadelphia 76ers,-0.23,False,Phi
+487,2007,NBA,Phoenix Suns,-0.03,True,Pho
+488,2007,NBA,Portland Trail Blazers,0.51,False,Por
+489,2007,NBA,Sacramento Kings,0.46,False,Sac
+490,2007,NBA,San Antonio Spurs,-0.08,True,SA
+491,2007,NBA,Seattle SuperSonics,0.45,False,Sea
+492,2007,NBA,Toronto Raptors,-0.38,True,Tor
+493,2007,NBA,Utah Jazz,0.2,True,Uta
+494,2007,NBA,Washington Wizards,-0.28,True,Wsh
+495,2007,NBA,League Average,0.0,False,LGAvg
+496,2006,NBA,Atlanta Hawks,0.07,False,Atl
+497,2006,NBA,Boston Celtics,-0.05,False,Bos
+498,2006,NBA,Charlotte Bobcats,0.1,False,ChB
+499,2006,NBA,Chicago Bulls,-0.12,True,Chi
+500,2006,NBA,Cleveland Cavaliers,-0.06,True,Cle
+501,2006,NBA,Dallas Mavericks,-0.11,True,Dal
+502,2006,NBA,Denver Nuggets,0.13,True,Den
+503,2006,NBA,Detroit Pistons,-0.44,True,Det
+504,2006,NBA,Golden State Warriors,0.25,False,GS
+505,2006,NBA,Houston Rockets,0.28,False,Hou
+506,2006,NBA,Indiana Pacers,-0.27,True,Ind
+507,2006,NBA,Los Angeles Clippers,0.18,True,LAC
+508,2006,NBA,Los Angeles Lakers,0.03,True,LAL
+509,2006,NBA,Memphis Grizzlies,0.05,True,Mem
+510,2006,NBA,Miami Heat,-0.27,True,Mia
+511,2006,NBA,Milwaukee Bucks,-0.04,True,Mil
+512,2006,NBA,Minnesota Timberwolves,0.13,False,Min
+513,2006,NBA,New Jersey Nets,-0.26,True,NJ
+514,2006,NBA,New Orleans/Oklahoma City Hornets,0.31,False,NOk
+515,2006,NBA,New York Knicks,0.11,False,NY
+516,2006,NBA,Orlando Magic,-0.18,False,Orl
+517,2006,NBA,Philadelphia 76ers,-0.15,False,Phi
+518,2006,NBA,Phoenix Suns,-0.07,True,Pho
+519,2006,NBA,Portland Trail Blazers,0.54,False,Por
+520,2006,NBA,Sacramento Kings,0.07,True,Sac
+521,2006,NBA,San Antonio Spurs,-0.13,True,SA
+522,2006,NBA,Seattle SuperSonics,0.15,False,Sea
+523,2006,NBA,Toronto Raptors,-0.04,False,Tor
+524,2006,NBA,Utah Jazz,0.14,False,Uta
+525,2006,NBA,Washington Wizards,-0.29,True,Wsh
+526,2006,NBA,League Average,0.0,False,LGAvg
+527,2005,NBA,Atlanta Hawks,0.09,False,Atl
+528,2005,NBA,Boston Celtics,-0.52,True,Bos
+529,2005,NBA,Charlotte Bobcats,-0.16,False,ChB
+530,2005,NBA,Chicago Bulls,-0.41,True,Chi
+531,2005,NBA,Cleveland Cavaliers,-0.52,False,Cle
+532,2005,NBA,Dallas Mavericks,0.11,True,Dal
+533,2005,NBA,Denver Nuggets,0.2,True,Den
+534,2005,NBA,Detroit Pistons,-0.55,True,Det
+535,2005,NBA,Golden State Warriors,0.42,False,GS
+536,2005,NBA,Houston Rockets,0.23,True,Hou
+537,2005,NBA,Indiana Pacers,-0.27,True,Ind
+538,2005,NBA,Los Angeles Clippers,0.3,False,LAC
+539,2005,NBA,Los Angeles Lakers,0.64,False,LAL
+540,2005,NBA,Memphis Grizzlies,0.34,True,Mem
+541,2005,NBA,Miami Heat,-0.76,True,Mia
+542,2005,NBA,Milwaukee Bucks,-0.1,False,Mil
+543,2005,NBA,Minnesota Timberwolves,0.28,False,Min
+544,2005,NBA,New Jersey Nets,-0.32,True,NJ
+545,2005,NBA,New Orleans Hornets,0.78,False,NOH
+546,2005,NBA,New York Knicks,-0.28,False,NY
+547,2005,NBA,Orlando Magic,-0.27,False,Orl
+548,2005,NBA,Philadelphia 76ers,-0.33,True,Phi
+549,2005,NBA,Phoenix Suns,-0.04,True,Pho
+550,2005,NBA,Portland Trail Blazers,0.55,False,Por
+551,2005,NBA,Sacramento Kings,0.4,True,Sac
+552,2005,NBA,San Antonio Spurs,0.03,True,SA
+553,2005,NBA,Seattle SuperSonics,0.3,True,Sea
+554,2005,NBA,Toronto Raptors,-0.19,False,Tor
+555,2005,NBA,Utah Jazz,0.53,False,Uta
+556,2005,NBA,Washington Wizards,-0.38,True,Wsh
+557,2005,NBA,League Average,0.0,False,LGAvg
+558,2004,NBA,Atlanta Hawks,-0.36,False,Atl
+559,2004,NBA,Boston Celtics,-0.54,True,Bos
+560,2004,NBA,Chicago Bulls,-0.33,False,Chi
+561,2004,NBA,Cleveland Cavaliers,-0.44,False,Cle
+562,2004,NBA,Dallas Mavericks,0.42,True,Dal
+563,2004,NBA,Denver Nuggets,0.58,True,Den
+564,2004,NBA,Detroit Pistons,-0.81,True,Det
+565,2004,NBA,Golden State Warriors,0.66,False,GS
+566,2004,NBA,Houston Rockets,0.55,True,Hou
+567,2004,NBA,Indiana Pacers,-0.82,True,Ind
+568,2004,NBA,Los Angeles Clippers,0.84,False,LAC
+569,2004,NBA,Los Angeles Lakers,0.45,True,LAL
+570,2004,NBA,Memphis Grizzlies,0.52,True,Mem
+571,2004,NBA,Miami Heat,-0.65,True,Mia
+572,2004,NBA,Milwaukee Bucks,-0.64,True,Mil
+573,2004,NBA,Minnesota Timberwolves,0.37,True,Min
+574,2004,NBA,New Jersey Nets,-0.63,True,NJ
+575,2004,NBA,New Orleans Hornets,-0.62,True,NOH
+576,2004,NBA,New York Knicks,-0.49,True,NY
+577,2004,NBA,Orlando Magic,-0.23,False,Orl
+578,2004,NBA,Philadelphia 76ers,-0.46,False,Phi
+579,2004,NBA,Phoenix Suns,0.8,False,Pho
+580,2004,NBA,Portland Trail Blazers,0.69,False,Por
+581,2004,NBA,Sacramento Kings,0.4,True,Sac
+582,2004,NBA,San Antonio Spurs,0.29,True,SA
+583,2004,NBA,Seattle SuperSonics,0.66,False,Sea
+584,2004,NBA,Toronto Raptors,-0.4,False,Tor
+585,2004,NBA,Utah Jazz,0.69,False,Uta
+586,2004,NBA,Washington Wizards,-0.48,False,Wsh
+587,2004,NBA,League Average,0.0,False,LGAvg
+588,2003,NBA,Atlanta Hawks,-0.31,False,Atl
+589,2003,NBA,Boston Celtics,-0.36,True,Bos
+590,2003,NBA,Chicago Bulls,-0.17,False,Chi
+591,2003,NBA,Cleveland Cavaliers,0.04,False,Cle
+592,2003,NBA,Dallas Mavericks,0.12,True,Dal
+593,2003,NBA,Denver Nuggets,0.87,False,Den
+594,2003,NBA,Detroit Pistons,-0.71,True,Det
+595,2003,NBA,Golden State Warriors,0.54,False,GS
+596,2003,NBA,Houston Rockets,0.42,False,Hou
+597,2003,NBA,Indiana Pacers,-0.7,True,Ind
+598,2003,NBA,Los Angeles Clippers,0.68,False,LAC
+599,2003,NBA,Los Angeles Lakers,0.38,True,LAL
+600,2003,NBA,Memphis Grizzlies,0.63,False,Mem
+601,2003,NBA,Miami Heat,-0.08,False,Mia
+602,2003,NBA,Milwaukee Bucks,-0.48,True,Mil
+603,2003,NBA,Minnesota Timberwolves,0.39,True,Min
+604,2003,NBA,New Jersey Nets,-0.8,True,NJ
+605,2003,NBA,New Orleans Hornets,-0.59,True,NOH
+606,2003,NBA,New York Knicks,-0.26,False,NY
+607,2003,NBA,Orlando Magic,-0.53,True,Orl
+608,2003,NBA,Philadelphia 76ers,-0.55,True,Phi
+609,2003,NBA,Phoenix Suns,0.43,True,Pho
+610,2003,NBA,Portland Trail Blazers,0.36,True,Por
+611,2003,NBA,Sacramento Kings,0.18,True,Sac
+612,2003,NBA,San Antonio Spurs,0.23,True,SA
+613,2003,NBA,Seattle SuperSonics,0.49,False,Sea
+614,2003,NBA,Toronto Raptors,-0.23,False,Tor
+615,2003,NBA,Utah Jazz,0.37,True,Uta
+616,2003,NBA,Washington Wizards,-0.46,False,Wsh
+617,2003,NBA,League Average,0.0,False,LGAvg
+618,2002,NBA,Atlanta Hawks,-0.18,False,Atl
+619,2002,NBA,Boston Celtics,-0.46,True,Bos
+620,2002,NBA,Charlotte Hornets,-0.4,True,Cha
+621,2002,NBA,Chicago Bulls,0.02,False,Chi
+622,2002,NBA,Cleveland Cavaliers,-0.19,False,Cle
+623,2002,NBA,Dallas Mavericks,0.16,True,Dal
+624,2002,NBA,Denver Nuggets,0.63,False,Den
+625,2002,NBA,Detroit Pistons,-0.45,True,Det
+626,2002,NBA,Golden State Warriors,0.61,False,GS
+627,2002,NBA,Houston Rockets,0.58,False,Hou
+628,2002,NBA,Indiana Pacers,-0.34,True,Ind
+629,2002,NBA,Los Angeles Clippers,0.38,False,LAC
+630,2002,NBA,Los Angeles Lakers,0.03,True,LAL
+631,2002,NBA,Memphis Grizzlies,0.7,False,Mem
+632,2002,NBA,Miami Heat,-0.31,False,Mia
+633,2002,NBA,Milwaukee Bucks,-0.4,False,Mil
+634,2002,NBA,Minnesota Timberwolves,0.2,True,Min
+635,2002,NBA,New Jersey Nets,-0.49,True,NJ
+636,2002,NBA,New York Knicks,-0.16,False,NY
+637,2002,NBA,Orlando Magic,-0.32,True,Orl
+638,2002,NBA,Philadelphia 76ers,-0.33,True,Phi
+639,2002,NBA,Phoenix Suns,0.39,False,Pho
+640,2002,NBA,Portland Trail Blazers,0.22,True,Por
+641,2002,NBA,Sacramento Kings,0.0,True,Sac
+642,2002,NBA,San Antonio Spurs,0.07,True,SA
+643,2002,NBA,Seattle SuperSonics,0.22,True,Sea
+644,2002,NBA,Toronto Raptors,-0.27,True,Tor
+645,2002,NBA,Utah Jazz,0.32,True,Uta
+646,2002,NBA,Washington Wizards,-0.17,False,Wsh
+647,2002,NBA,League Average,0.0,False,LGAvg
+648,2001,NBA,Atlanta Hawks,-0.34,False,Atl
+649,2001,NBA,Boston Celtics,-0.26,False,Bos
+650,2001,NBA,Charlotte Hornets,-0.65,True,Cha
+651,2001,NBA,Chicago Bulls,0.01,False,Chi
+652,2001,NBA,Cleveland Cavaliers,-0.23,False,Cle
+653,2001,NBA,Dallas Mavericks,0.32,True,Dal
+654,2001,NBA,Denver Nuggets,0.64,False,Den
+655,2001,NBA,Detroit Pistons,-0.39,False,Det
+656,2001,NBA,Golden State Warriors,0.94,False,GS
+657,2001,NBA,Houston Rockets,0.42,False,Hou
+658,2001,NBA,Indiana Pacers,-0.57,True,Ind
+659,2001,NBA,Los Angeles Clippers,0.66,False,LAC
+660,2001,NBA,Los Angeles Lakers,0.37,True,LAL
+661,2001,NBA,Miami Heat,-0.57,True,Mia
+662,2001,NBA,Milwaukee Bucks,-0.74,True,Mil
+663,2001,NBA,Minnesota Timberwolves,0.46,True,Min
+664,2001,NBA,New Jersey Nets,-0.25,False,NJ
+665,2001,NBA,New York Knicks,-0.65,True,NY
+666,2001,NBA,Orlando Magic,-0.6,True,Orl
+667,2001,NBA,Philadelphia 76ers,-0.65,True,Phi
+668,2001,NBA,Phoenix Suns,0.42,True,Pho
+669,2001,NBA,Portland Trail Blazers,0.33,True,Por
+670,2001,NBA,Sacramento Kings,0.25,True,Sac
+671,2001,NBA,San Antonio Spurs,0.16,True,SA
+672,2001,NBA,Seattle SuperSonics,0.52,False,Sea
+673,2001,NBA,Toronto Raptors,-0.57,True,Tor
+674,2001,NBA,Utah Jazz,0.31,True,Uta
+675,2001,NBA,Vancouver Grizzlies,0.79,False,Van
+676,2001,NBA,Washington Wizards,-0.08,False,Wsh
+677,2001,NBA,League Average,0.0,False,LGAvg
+678,2000,NBA,Atlanta Hawks,-0.04,False,Atl
+679,2000,NBA,Boston Celtics,-0.24,False,Bos
+680,2000,NBA,Charlotte Hornets,-0.34,True,Cha
+681,2000,NBA,Chicago Bulls,0.17,False,Chi
+682,2000,NBA,Cleveland Cavaliers,-0.14,False,Cle
+683,2000,NBA,Dallas Mavericks,0.29,False,Dal
+684,2000,NBA,Denver Nuggets,0.36,False,Den
+685,2000,NBA,Detroit Pistons,-0.31,True,Det
+686,2000,NBA,Golden State Warriors,0.64,False,GS
+687,2000,NBA,Houston Rockets,0.3,False,Hou
+688,2000,NBA,Indiana Pacers,-0.45,True,Ind
+689,2000,NBA,Los Angeles Clippers,0.8,False,LAC
+690,2000,NBA,Los Angeles Lakers,-0.14,True,LAL
+691,2000,NBA,Miami Heat,-0.36,True,Mia
+692,2000,NBA,Milwaukee Bucks,-0.28,True,Mil
+693,2000,NBA,Minnesota Timberwolves,0.14,True,Min
+694,2000,NBA,New Jersey Nets,-0.15,False,NJ
+695,2000,NBA,New York Knicks,-0.16,True,NY
+696,2000,NBA,Orlando Magic,-0.26,False,Orl
+697,2000,NBA,Philadelphia 76ers,-0.32,True,Phi
+698,2000,NBA,Phoenix Suns,0.02,True,Pho
+699,2000,NBA,Portland Trail Blazers,-0.04,True,Por
+700,2000,NBA,Sacramento Kings,0.12,True,Sac
+701,2000,NBA,San Antonio Spurs,-0.02,True,SA
+702,2000,NBA,Seattle SuperSonics,0.22,True,Sea
+703,2000,NBA,Toronto Raptors,-0.3,True,Tor
+704,2000,NBA,Utah Jazz,0.05,True,Uta
+705,2000,NBA,Vancouver Grizzlies,0.52,False,Van
+706,2000,NBA,Washington Wizards,-0.19,False,Wsh
+707,2000,NBA,League Average,0.0,False,LGAvg
+708,1999,NBA,Atlanta Hawks,-0.08,True,Atl
+709,1999,NBA,Boston Celtics,0.11,False,Bos
+710,1999,NBA,Charlotte Hornets,0.73,False,Cha
+711,1999,NBA,Chicago Bulls,0.88,False,Chi
+712,1999,NBA,Cleveland Cavaliers,0.78,False,Cle
+713,1999,NBA,Dallas Mavericks,-0.1,False,Dal
+714,1999,NBA,Denver Nuggets,-0.07,False,Den
+715,1999,NBA,Detroit Pistons,0.55,True,Det
+716,1999,NBA,Golden State Warriors,-0.13,False,GS
+717,1999,NBA,Houston Rockets,-0.93,True,Hou
+718,1999,NBA,Indiana Pacers,0.12,True,Ind
+719,1999,NBA,Los Angeles Clippers,-0.12,False,LAC
+720,1999,NBA,Los Angeles Lakers,-0.35,True,LAL
+721,1999,NBA,Miami Heat,0.15,True,Mia
+722,1999,NBA,Milwaukee Bucks,0.0,True,Mil
+723,1999,NBA,Minnesota Timberwolves,-0.55,True,Min
+724,1999,NBA,New Jersey Nets,0.58,False,NJ
+725,1999,NBA,New York Knicks,0.43,True,NY
+726,1999,NBA,Orlando Magic,0.51,True,Orl
+727,1999,NBA,Philadelphia 76ers,0.5,True,Phi
+728,1999,NBA,Phoenix Suns,-0.11,True,Pho
+729,1999,NBA,Portland Trail Blazers,-0.69,True,Por
+730,1999,NBA,Sacramento Kings,-0.47,True,Sac
+731,1999,NBA,San Antonio Spurs,-0.94,True,SA
+732,1999,NBA,Seattle SuperSonics,-0.35,False,Sea
+733,1999,NBA,Toronto Raptors,0.33,False,Tor
+734,1999,NBA,Utah Jazz,-0.99,True,Uta
+735,1999,NBA,Vancouver Grizzlies,-0.28,False,Van
+736,1999,NBA,Washington Wizards,0.49,False,Wsh
+737,1999,NBA,League Average,0.0,False,LGAvg
+738,1998,NBA,Atlanta Hawks,0.34,True,Atl
+739,1998,NBA,Boston Celtics,0.66,False,Bos
+740,1998,NBA,Charlotte Hornets,0.45,True,Cha
+741,1998,NBA,Chicago Bulls,0.13,True,Chi
+742,1998,NBA,Cleveland Cavaliers,0.33,True,Cle
+743,1998,NBA,Dallas Mavericks,-0.22,False,Dal
+744,1998,NBA,Denver Nuggets,0.04,False,Den
+745,1998,NBA,Detroit Pistons,0.37,False,Det
+746,1998,NBA,Golden State Warriors,-0.08,False,GS
+747,1998,NBA,Houston Rockets,-0.47,True,Hou
+748,1998,NBA,Indiana Pacers,0.16,True,Ind
+749,1998,NBA,Los Angeles Clippers,-0.16,False,LAC
+750,1998,NBA,Los Angeles Lakers,-0.87,True,LAL
+751,1998,NBA,Miami Heat,0.16,True,Mia
+752,1998,NBA,Milwaukee Bucks,0.58,False,Mil
+753,1998,NBA,Minnesota Timberwolves,-0.54,True,Min
+754,1998,NBA,New Jersey Nets,0.31,True,NJ
+755,1998,NBA,New York Knicks,0.28,True,NY
+756,1998,NBA,Orlando Magic,0.54,False,Orl
+757,1998,NBA,Philadelphia 76ers,0.5,False,Phi
+758,1998,NBA,Phoenix Suns,-0.75,True,Pho
+759,1998,NBA,Portland Trail Blazers,-0.57,True,Por
+760,1998,NBA,Sacramento Kings,-0.25,False,Sac
+761,1998,NBA,San Antonio Spurs,-0.69,True,SA
+762,1998,NBA,Seattle SuperSonics,-0.84,True,Sea
+763,1998,NBA,Toronto Raptors,0.94,False,Tor
+764,1998,NBA,Utah Jazz,-0.81,True,Uta
+765,1998,NBA,Vancouver Grizzlies,-0.17,False,Van
+766,1998,NBA,Washington Wizards,0.53,False,Wsh
+767,1998,NBA,League Average,0.0,False,LGAvg
+768,1997,NBA,Atlanta Hawks,0.08,True,Atl
+769,1997,NBA,Boston Celtics,0.71,False,Bos
+770,1997,NBA,Charlotte Hornets,0.26,True,Cha
+771,1997,NBA,Chicago Bulls,-0.11,True,Chi
+772,1997,NBA,Cleveland Cavaliers,0.47,False,Cle
+773,1997,NBA,Dallas Mavericks,-0.12,False,Dal
+774,1997,NBA,Denver Nuggets,-0.12,False,Den
+775,1997,NBA,Detroit Pistons,0.2,True,Det
+776,1997,NBA,Golden State Warriors,-0.2,False,GS
+777,1997,NBA,Houston Rockets,-0.62,True,Hou
+778,1997,NBA,Indiana Pacers,0.52,False,Ind
+779,1997,NBA,Los Angeles Clippers,-0.31,True,LAC
+780,1997,NBA,Los Angeles Lakers,-0.61,True,LAL
+781,1997,NBA,Miami Heat,0.07,True,Mia
+782,1997,NBA,Milwaukee Bucks,0.51,False,Mil
+783,1997,NBA,Minnesota Timberwolves,-0.35,True,Min
+784,1997,NBA,New Jersey Nets,0.67,False,NJ
+785,1997,NBA,New York Knicks,0.18,True,NY
+786,1997,NBA,Orlando Magic,0.28,True,Orl
+787,1997,NBA,Philadelphia 76ers,0.65,False,Phi
+788,1997,NBA,Phoenix Suns,-0.45,True,Pho
+789,1997,NBA,Portland Trail Blazers,-0.61,True,Por
+790,1997,NBA,Sacramento Kings,-0.26,False,Sac
+791,1997,NBA,San Antonio Spurs,-0.05,False,SA
+792,1997,NBA,Seattle SuperSonics,-0.77,True,Sea
+793,1997,NBA,Toronto Raptors,0.57,False,Tor
+794,1997,NBA,Utah Jazz,-0.82,True,Uta
+795,1997,NBA,Vancouver Grizzlies,0.06,False,Van
+796,1997,NBA,Washington Bullets,0.15,True,WsB
+797,1997,NBA,League Average,0.0,False,LGAvg
+798,1996,NBA,Atlanta Hawks,0.07,True,Atl
+799,1996,NBA,Boston Celtics,0.03,False,Bos
+800,1996,NBA,Charlotte Hornets,0.09,False,Cha
+801,1996,NBA,Chicago Bulls,-0.44,True,Chi
+802,1996,NBA,Cleveland Cavaliers,-0.09,True,Cle
+803,1996,NBA,Dallas Mavericks,0.19,False,Dal
+804,1996,NBA,Denver Nuggets,0.09,False,Den
+805,1996,NBA,Detroit Pistons,-0.05,True,Det
+806,1996,NBA,Golden State Warriors,0.03,False,GS
+807,1996,NBA,Houston Rockets,-0.12,True,Hou
+808,1996,NBA,Indiana Pacers,-0.14,True,Ind
+809,1996,NBA,Los Angeles Clippers,0.13,False,LAC
+810,1996,NBA,Los Angeles Lakers,-0.24,True,LAL
+811,1996,NBA,Miami Heat,0.03,True,Mia
+812,1996,NBA,Milwaukee Bucks,0.38,False,Mil
+813,1996,NBA,Minnesota Timberwolves,0.22,False,Min
+814,1996,NBA,New Jersey Nets,0.09,False,NJ
+815,1996,NBA,New York Knicks,-0.08,True,NY
+816,1996,NBA,Orlando Magic,-0.16,True,Orl
+817,1996,NBA,Philadelphia 76ers,0.55,False,Phi
+818,1996,NBA,Phoenix Suns,-0.05,True,Pho
+819,1996,NBA,Portland Trail Blazers,-0.14,True,Por
+820,1996,NBA,Sacramento Kings,0.09,True,Sac
+821,1996,NBA,San Antonio Spurs,-0.33,True,SA
+822,1996,NBA,Seattle SuperSonics,-0.4,True,Sea
+823,1996,NBA,Toronto Raptors,0.31,False,Tor
+824,1996,NBA,Utah Jazz,-0.34,True,Uta
+825,1996,NBA,Vancouver Grizzlies,0.43,False,Van
+826,1996,NBA,Washington Bullets,-0.07,False,WsB
+827,1996,NBA,League Average,0.0,False,LGAvg
+828,1995,NBA,Atlanta Hawks,-0.22,True,Atl
+829,1995,NBA,Boston Celtics,-0.04,True,Bos
+830,1995,NBA,Charlotte Hornets,-0.41,True,Cha
+831,1995,NBA,Chicago Bulls,-0.51,True,Chi
+832,1995,NBA,Cleveland Cavaliers,-0.07,True,Cle
+833,1995,NBA,Dallas Mavericks,0.51,False,Dal
+834,1995,NBA,Denver Nuggets,0.11,True,Den
+835,1995,NBA,Detroit Pistons,0.21,False,Det
+836,1995,NBA,Golden State Warriors,0.51,False,GS
+837,1995,NBA,Houston Rockets,0.2,True,Hou
+838,1995,NBA,Indiana Pacers,-0.34,True,Ind
+839,1995,NBA,Los Angeles Clippers,0.73,False,LAC
+840,1995,NBA,Los Angeles Lakers,0.21,True,LAL
+841,1995,NBA,Miami Heat,-0.21,False,Mia
+842,1995,NBA,Milwaukee Bucks,0.07,False,Mil
+843,1995,NBA,Minnesota Timberwolves,0.78,False,Min
+844,1995,NBA,New Jersey Nets,-0.14,False,NJ
+845,1995,NBA,New York Knicks,-0.33,True,NY
+846,1995,NBA,Orlando Magic,-0.62,True,Orl
+847,1995,NBA,Philadelphia 76ers,0.01,False,Phi
+848,1995,NBA,Phoenix Suns,-0.02,True,Pho
+849,1995,NBA,Portland Trail Blazers,-0.02,True,Por
+850,1995,NBA,Sacramento Kings,0.26,False,Sac
+851,1995,NBA,San Antonio Spurs,-0.06,True,SA
+852,1995,NBA,Seattle SuperSonics,-0.27,True,Sea
+853,1995,NBA,Utah Jazz,-0.23,True,Uta
+854,1995,NBA,Washington Bullets,0.04,False,WsB
+855,1995,NBA,League Average,0.01,False,LGAvg
+856,1994,NBA,Atlanta Hawks,-0.33,True,Atl
+857,1994,NBA,Boston Celtics,0.01,False,Bos
+858,1994,NBA,Charlotte Hornets,-0.01,False,Cha
+859,1994,NBA,Chicago Bulls,-0.22,True,Chi
+860,1994,NBA,Cleveland Cavaliers,-0.39,True,Cle
+861,1994,NBA,Dallas Mavericks,0.5,False,Dal
+862,1994,NBA,Denver Nuggets,0.05,True,Den
+863,1994,NBA,Detroit Pistons,0.33,False,Det
+864,1994,NBA,Golden State Warriors,0.01,True,GS
+865,1994,NBA,Houston Rockets,-0.12,True,Hou
+866,1994,NBA,Indiana Pacers,-0.19,True,Ind
+867,1994,NBA,Los Angeles Clippers,0.44,False,LAC
+868,1994,NBA,Los Angeles Lakers,0.36,False,LAL
+869,1994,NBA,Miami Heat,-0.27,True,Mia
+870,1994,NBA,Milwaukee Bucks,0.24,False,Mil
+871,1994,NBA,Minnesota Timberwolves,0.38,False,Min
+872,1994,NBA,New Jersey Nets,-0.08,True,NJ
+873,1994,NBA,New York Knicks,-0.5,True,NY
+874,1994,NBA,Orlando Magic,-0.21,True,Orl
+875,1994,NBA,Philadelphia 76ers,0.25,False,Phi
+876,1994,NBA,Phoenix Suns,-0.17,True,Pho
+877,1994,NBA,Portland Trail Blazers,-0.04,True,Por
+878,1994,NBA,Sacramento Kings,0.44,False,Sac
+879,1994,NBA,San Antonio Spurs,-0.21,True,SA
+880,1994,NBA,Seattle SuperSonics,-0.41,True,Sea
+881,1994,NBA,Utah Jazz,-0.12,True,Uta
+882,1994,NBA,Washington Bullets,0.25,False,WsB
+883,1994,NBA,League Average,0.0,False,LGAvg
+884,1993,NBA,Atlanta Hawks,0.2,True,Atl
+885,1993,NBA,Boston Celtics,0.04,True,Bos
+886,1993,NBA,Charlotte Hornets,0.22,True,Cha
+887,1993,NBA,Chicago Bulls,-0.1,True,Chi
+888,1993,NBA,Cleveland Cavaliers,-0.15,True,Cle
+889,1993,NBA,Dallas Mavericks,0.52,False,Dal
+890,1993,NBA,Denver Nuggets,-0.4,False,Den
+891,1993,NBA,Detroit Pistons,0.29,False,Det
+892,1993,NBA,Golden State Warriors,0.05,False,GS
+893,1993,NBA,Houston Rockets,-0.66,True,Hou
+894,1993,NBA,Indiana Pacers,0.08,True,Ind
+895,1993,NBA,Los Angeles Clippers,-0.03,True,LAC
+896,1993,NBA,Los Angeles Lakers,0.06,True,LAL
+897,1993,NBA,Miami Heat,0.21,False,Mia
+898,1993,NBA,Milwaukee Bucks,0.47,False,Mil
+899,1993,NBA,Minnesota Timberwolves,0.16,False,Min
+900,1993,NBA,New Jersey Nets,-0.05,True,NJ
+901,1993,NBA,New York Knicks,-0.29,True,NY
+902,1993,NBA,Orlando Magic,0.03,False,Orl
+903,1993,NBA,Philadelphia 76ers,0.51,False,Phi
+904,1993,NBA,Phoenix Suns,-0.39,True,Pho
+905,1993,NBA,Portland Trail Blazers,-0.19,True,Por
+906,1993,NBA,Sacramento Kings,0.17,False,Sac
+907,1993,NBA,San Antonio Spurs,-0.46,True,SA
+908,1993,NBA,Seattle SuperSonics,-0.42,True,Sea
+909,1993,NBA,Utah Jazz,-0.43,True,Uta
+910,1993,NBA,Washington Bullets,0.55,False,WsB
+911,1993,NBA,League Average,0.0,False,LGAvg
+912,1992,NBA,Atlanta Hawks,0.35,False,Atl
+913,1992,NBA,Boston Celtics,-0.21,True,Bos
+914,1992,NBA,Charlotte Hornets,0.33,False,Cha
+915,1992,NBA,Chicago Bulls,-0.37,True,Chi
+916,1992,NBA,Cleveland Cavaliers,-0.11,True,Cle
+917,1992,NBA,Dallas Mavericks,0.18,False,Dal
+918,1992,NBA,Denver Nuggets,0.28,False,Den
+919,1992,NBA,Detroit Pistons,0.01,True,Det
+920,1992,NBA,Golden State Warriors,-0.14,True,GS
+921,1992,NBA,Houston Rockets,-0.22,False,Hou
+922,1992,NBA,Indiana Pacers,-0.04,True,Ind
+923,1992,NBA,Los Angeles Clippers,0.03,True,LAC
+924,1992,NBA,Los Angeles Lakers,0.15,True,LAL
+925,1992,NBA,Miami Heat,0.27,True,Mia
+926,1992,NBA,Milwaukee Bucks,0.26,False,Mil
+927,1992,NBA,Minnesota Timberwolves,0.2,False,Min
+928,1992,NBA,New Jersey Nets,0.15,True,NJ
+929,1992,NBA,New York Knicks,-0.22,True,NY
+930,1992,NBA,Orlando Magic,0.4,False,Orl
+931,1992,NBA,Philadelphia 76ers,-0.07,False,Phi
+932,1992,NBA,Phoenix Suns,-0.26,True,Pho
+933,1992,NBA,Portland Trail Blazers,-0.33,True,Por
+934,1992,NBA,Sacramento Kings,0.44,False,Sac
+935,1992,NBA,San Antonio Spurs,-0.51,True,SA
+936,1992,NBA,Seattle SuperSonics,-0.02,True,Sea
+937,1992,NBA,Utah Jazz,-0.69,True,Uta
+938,1992,NBA,Washington Bullets,0.11,False,WsB
+939,1992,NBA,League Average,0.0,False,LGAvg
+940,1991,NBA,Atlanta Hawks,-0.05,True,Atl
+941,1991,NBA,Boston Celtics,-0.6,True,Bos
+942,1991,NBA,Charlotte Hornets,0.3,False,Cha
+943,1991,NBA,Chicago Bulls,-0.53,True,Chi
+944,1991,NBA,Cleveland Cavaliers,0.14,False,Cle
+945,1991,NBA,Dallas Mavericks,0.31,False,Dal
+946,1991,NBA,Denver Nuggets,0.6,False,Den
+947,1991,NBA,Detroit Pistons,-0.19,True,Det
+948,1991,NBA,Golden State Warriors,0.09,True,GS
+949,1991,NBA,Houston Rockets,-0.23,True,Hou
+950,1991,NBA,Indiana Pacers,0.02,True,Ind
+951,1991,NBA,Los Angeles Clippers,0.29,False,LAC
+952,1991,NBA,Los Angeles Lakers,-0.01,True,LAL
+953,1991,NBA,Miami Heat,0.08,False,Mia
+954,1991,NBA,Milwaukee Bucks,-0.15,True,Mil
+955,1991,NBA,Minnesota Timberwolves,0.18,False,Min
+956,1991,NBA,New Jersey Nets,-0.02,False,NJ
+957,1991,NBA,New York Knicks,-0.2,True,NY
+958,1991,NBA,Orlando Magic,0.18,False,Orl
+959,1991,NBA,Philadelphia 76ers,-0.21,True,Phi
+960,1991,NBA,Phoenix Suns,-0.06,True,Pho
+961,1991,NBA,Portland Trail Blazers,-0.21,True,Por
+962,1991,NBA,Sacramento Kings,0.51,False,Sac
+963,1991,NBA,San Antonio Spurs,-0.21,True,SA
+964,1991,NBA,Seattle SuperSonics,0.08,True,Sea
+965,1991,NBA,Utah Jazz,-0.15,True,Uta
+966,1991,NBA,Washington Bullets,0.14,False,WsB
+967,1991,NBA,League Average,0.0,False,LGAvg
+968,1990,NBA,Atlanta Hawks,-0.39,False,Atl
+969,1990,NBA,Boston Celtics,-0.76,True,Bos
+970,1990,NBA,Charlotte Hornets,0.81,False,Cha
+971,1990,NBA,Chicago Bulls,-0.51,True,Chi
+972,1990,NBA,Cleveland Cavaliers,-0.31,True,Cle
+973,1990,NBA,Dallas Mavericks,0.35,True,Dal
+974,1990,NBA,Denver Nuggets,0.15,True,Den
+975,1990,NBA,Detroit Pistons,-0.68,True,Det
+976,1990,NBA,Golden State Warriors,0.59,False,GS
+977,1990,NBA,Houston Rockets,0.24,True,Hou
+978,1990,NBA,Indiana Pacers,-0.34,True,Ind
+979,1990,NBA,Los Angeles Clippers,0.59,False,LAC
+980,1990,NBA,Los Angeles Lakers,-0.04,True,LAL
+981,1990,NBA,Miami Heat,0.13,False,Mia
+982,1990,NBA,Milwaukee Bucks,-0.28,True,Mil
+983,1990,NBA,Minnesota Timberwolves,0.63,False,Min
+984,1990,NBA,New Jersey Nets,0.05,False,NJ
+985,1990,NBA,New York Knicks,-0.63,True,NY
+986,1990,NBA,Orlando Magic,0.19,False,Orl
+987,1990,NBA,Philadelphia 76ers,-0.75,True,Phi
+988,1990,NBA,Phoenix Suns,-0.01,True,Pho
+989,1990,NBA,Portland Trail Blazers,0.16,True,Por
+990,1990,NBA,Sacramento Kings,0.65,False,Sac
+991,1990,NBA,San Antonio Spurs,0.09,True,SA
+992,1990,NBA,Seattle SuperSonics,0.36,False,Sea
+993,1990,NBA,Utah Jazz,0.03,True,Uta
+994,1990,NBA,Washington Bullets,-0.27,False,WsB
+995,1990,NBA,League Average,0.0,False,LGAvg
+996,1989,NBA,Atlanta Hawks,0.35,True,Atl
+997,1989,NBA,Boston Celtics,0.1,True,Bos
+998,1989,NBA,Charlotte Hornets,0.79,False,Cha
+999,1989,NBA,Chicago Bulls,0.69,True,Chi
+1000,1989,NBA,Cleveland Cavaliers,0.35,True,Cle
+1001,1989,NBA,Dallas Mavericks,-0.59,False,Dal
+1002,1989,NBA,Denver Nuggets,-0.78,True,Den
+1003,1989,NBA,Detroit Pistons,0.44,True,Det
+1004,1989,NBA,Golden State Warriors,-0.29,True,GS
+1005,1989,NBA,Houston Rockets,-0.73,True,Hou
+1006,1989,NBA,Indiana Pacers,1.17,False,Ind
+1007,1989,NBA,Los Angeles Clippers,0.41,False,LAC
+1008,1989,NBA,Los Angeles Lakers,-0.79,True,LAL
+1009,1989,NBA,Miami Heat,0.1,False,Mia
+1010,1989,NBA,Milwaukee Bucks,0.5,True,Mil
+1011,1989,NBA,New Jersey Nets,0.66,False,NJ
+1012,1989,NBA,New York Knicks,-0.15,True,NY
+1013,1989,NBA,Philadelphia 76ers,0.18,True,Phi
+1014,1989,NBA,Phoenix Suns,-0.86,True,Pho
+1015,1989,NBA,Portland Trail Blazers,-0.55,True,Por
+1016,1989,NBA,Sacramento Kings,0.2,False,Sac
+1017,1989,NBA,San Antonio Spurs,-0.17,False,SA
+1018,1989,NBA,Seattle SuperSonics,-0.46,True,Sea
+1019,1989,NBA,Utah Jazz,-1.01,True,Uta
+1020,1989,NBA,Washington Bullets,0.39,False,WsB
+1021,1989,NBA,League Average,0.0,False,LGAvg
+1022,1988,NBA,Atlanta Hawks,0.42,True,Atl
+1023,1988,NBA,Boston Celtics,0.22,True,Bos
+1024,1988,NBA,Chicago Bulls,0.35,True,Chi
+1025,1988,NBA,Cleveland Cavaliers,0.52,True,Cle
+1026,1988,NBA,Dallas Mavericks,-0.77,True,Dal
+1027,1988,NBA,Denver Nuggets,-0.75,True,Den
+1028,1988,NBA,Detroit Pistons,0.29,True,Det
+1029,1988,NBA,Golden State Warriors,-0.06,False,GS
+1030,1988,NBA,Houston Rockets,-0.57,True,Hou
+1031,1988,NBA,Indiana Pacers,0.62,False,Ind
+1032,1988,NBA,Los Angeles Clippers,0.07,False,LAC
+1033,1988,NBA,Los Angeles Lakers,-1.03,True,LAL
+1034,1988,NBA,Milwaukee Bucks,0.68,True,Mil
+1035,1988,NBA,New Jersey Nets,1.13,False,NJ
+1036,1988,NBA,New York Knicks,0.63,True,NY
+1037,1988,NBA,Philadelphia 76ers,0.65,False,Phi
+1038,1988,NBA,Phoenix Suns,-0.33,False,Pho
+1039,1988,NBA,Portland Trail Blazers,-0.94,True,Por
+1040,1988,NBA,Sacramento Kings,-0.08,False,Sac
+1041,1988,NBA,San Antonio Spurs,-0.14,True,SA
+1042,1988,NBA,Seattle SuperSonics,-0.77,True,Sea
+1043,1988,NBA,Utah Jazz,-0.73,True,Uta
+1044,1988,NBA,Washington Bullets,0.61,True,WsB
+1045,1988,NBA,League Average,0.0,False,LGAvg
+1046,1987,NBA,Atlanta Hawks,-0.05,True,Atl
+1047,1987,NBA,Boston Celtics,-0.08,True,Bos
+1048,1987,NBA,Chicago Bulls,0.37,True,Chi
+1049,1987,NBA,Cleveland Cavaliers,0.63,False,Cle
+1050,1987,NBA,Dallas Mavericks,-0.77,True,Dal
+1051,1987,NBA,Denver Nuggets,-0.28,True,Den
+1052,1987,NBA,Detroit Pistons,0.07,True,Det
+1053,1987,NBA,Golden State Warriors,-0.2,True,GS
+1054,1987,NBA,Houston Rockets,-0.4,True,Hou
+1055,1987,NBA,Indiana Pacers,0.47,True,Ind
+1056,1987,NBA,Los Angeles Clippers,0.42,False,LAC
+1057,1987,NBA,Los Angeles Lakers,-0.99,True,LAL
+1058,1987,NBA,Milwaukee Bucks,0.12,True,Mil
+1059,1987,NBA,New Jersey Nets,0.63,False,NJ
+1060,1987,NBA,New York Knicks,0.85,False,NY
+1061,1987,NBA,Philadelphia 76ers,0.31,True,Phi
+1062,1987,NBA,Phoenix Suns,-0.19,False,Pho
+1063,1987,NBA,Portland Trail Blazers,-0.57,True,Por
+1064,1987,NBA,Sacramento Kings,-0.12,False,Sac
+1065,1987,NBA,San Antonio Spurs,0.01,False,SA
+1066,1987,NBA,Seattle SuperSonics,-0.39,True,Sea
+1067,1987,NBA,Utah Jazz,-0.36,True,Uta
+1068,1987,NBA,Washington Bullets,0.35,True,WsB
+1069,1987,NBA,League Average,-0.01,False,LGAvg
+1070,1986,NBA,Atlanta Hawks,0.22,True,Atl
+1071,1986,NBA,Boston Celtics,-0.36,True,Bos
+1072,1986,NBA,Chicago Bulls,0.69,True,Chi
+1073,1986,NBA,Cleveland Cavaliers,0.68,False,Cle
+1074,1986,NBA,Dallas Mavericks,-0.4,True,Dal
+1075,1986,NBA,Denver Nuggets,-0.42,True,Den
+1076,1986,NBA,Detroit Pistons,0.27,True,Det
+1077,1986,NBA,Golden State Warriors,-0.14,False,GS
+1078,1986,NBA,Houston Rockets,-0.51,True,Hou
+1079,1986,NBA,Indiana Pacers,0.67,False,Ind
+1080,1986,NBA,Los Angeles Clippers,0.1,False,LAC
+1081,1986,NBA,Los Angeles Lakers,-0.91,True,LAL
+1082,1986,NBA,Milwaukee Bucks,-0.35,True,Mil
+1083,1986,NBA,New Jersey Nets,0.6,True,NJ
+1084,1986,NBA,New York Knicks,0.79,False,NY
+1085,1986,NBA,Philadelphia 76ers,0.11,True,Phi
+1086,1986,NBA,Phoenix Suns,-0.17,False,Pho
+1087,1986,NBA,Portland Trail Blazers,-0.45,True,Por
+1088,1986,NBA,Sacramento Kings,-0.12,True,Sac
+1089,1986,NBA,San Antonio Spurs,-0.2,True,SA
+1090,1986,NBA,Seattle SuperSonics,-0.37,False,Sea
+1091,1986,NBA,Utah Jazz,-0.3,True,Uta
+1092,1986,NBA,Washington Bullets,0.53,True,WsB
+1093,1986,NBA,League Average,0.0,False,LGAvg
+1094,1985,NBA,Atlanta Hawks,0.31,False,Atl
+1095,1985,NBA,Boston Celtics,-0.18,True,Bos
+1096,1985,NBA,Chicago Bulls,0.34,True,Chi
+1097,1985,NBA,Cleveland Cavaliers,0.48,True,Cle
+1098,1985,NBA,Dallas Mavericks,-0.37,True,Dal
+1099,1985,NBA,Denver Nuggets,-0.39,True,Den
+1100,1985,NBA,Detroit Pistons,0.24,True,Det
+1101,1985,NBA,Golden State Warriors,0.13,False,GS
+1102,1985,NBA,Houston Rockets,-0.34,True,Hou
+1103,1985,NBA,Indiana Pacers,0.75,False,Ind
+1104,1985,NBA,Kansas City Kings,-0.04,False,KC
+1105,1985,NBA,Los Angeles Clippers,-0.07,False,LAC
+1106,1985,NBA,Los Angeles Lakers,-0.87,True,LAL
+1107,1985,NBA,Milwaukee Bucks,-0.16,True,Mil
+1108,1985,NBA,New Jersey Nets,0.41,True,NJ
+1109,1985,NBA,New York Knicks,0.54,False,NY
+1110,1985,NBA,Philadelphia 76ers,0.07,True,Phi
+1111,1985,NBA,Phoenix Suns,-0.23,True,Pho
+1112,1985,NBA,Portland Trail Blazers,-0.6,True,Por
+1113,1985,NBA,San Antonio Spurs,-0.29,True,SA
+1114,1985,NBA,Seattle SuperSonics,0.0,False,Sea
+1115,1985,NBA,Utah Jazz,-0.22,True,Uta
+1116,1985,NBA,Washington Bullets,0.42,True,WsB
+1117,1985,NBA,League Average,0.0,False,LGAvg
+1118,1984,NBA,Atlanta Hawks,0.22,True,Atl
+1119,1984,NBA,Boston Celtics,-0.14,True,Bos
+1120,1984,NBA,Chicago Bulls,0.5,False,Chi
+1121,1984,NBA,Cleveland Cavaliers,0.55,False,Cle
+1122,1984,NBA,Dallas Mavericks,-0.27,True,Dal
+1123,1984,NBA,Denver Nuggets,-0.17,True,Den
+1124,1984,NBA,Detroit Pistons,-0.06,True,Det
+1125,1984,NBA,Golden State Warriors,0.05,False,GS
+1126,1984,NBA,Houston Rockets,-0.04,False,Hou
+1127,1984,NBA,Indiana Pacers,0.57,False,Ind
+1128,1984,NBA,Kansas City Kings,-0.15,True,KC
+1129,1984,NBA,Los Angeles Lakers,-0.44,True,LAL
+1130,1984,NBA,Milwaukee Bucks,-0.12,True,Mil
+1131,1984,NBA,New Jersey Nets,0.17,True,NJ
+1132,1984,NBA,New York Knicks,-0.05,True,NY
+1133,1984,NBA,Philadelphia 76ers,0.2,True,Phi
+1134,1984,NBA,Phoenix Suns,-0.24,True,Pho
+1135,1984,NBA,Portland Trail Blazers,-0.42,True,Por
+1136,1984,NBA,San Antonio Spurs,-0.23,False,SA
+1137,1984,NBA,San Diego Clippers,0.04,False,SD
+1138,1984,NBA,Seattle SuperSonics,-0.17,True,Sea
+1139,1984,NBA,Utah Jazz,-0.32,True,Uta
+1140,1984,NBA,Washington Bullets,0.53,True,WsB
+1141,1984,NBA,League Average,0.0,False,LGAvg
+1142,1983,NBA,Atlanta Hawks,0.23,True,Atl
+1143,1983,NBA,Boston Celtics,-0.01,True,Bos
+1144,1983,NBA,Chicago Bulls,0.48,False,Chi
+1145,1983,NBA,Cleveland Cavaliers,0.66,False,Cle
+1146,1983,NBA,Dallas Mavericks,-0.29,False,Dal
+1147,1983,NBA,Denver Nuggets,-0.36,True,Den
+1148,1983,NBA,Detroit Pistons,0.24,False,Det
+1149,1983,NBA,Golden State Warriors,0.14,False,GS
+1150,1983,NBA,Houston Rockets,0.48,False,Hou
+1151,1983,NBA,Indiana Pacers,0.49,False,Ind
+1152,1983,NBA,Kansas City Kings,-0.41,False,KC
+1153,1983,NBA,Los Angeles Lakers,-0.49,True,LAL
+1154,1983,NBA,Milwaukee Bucks,-0.08,True,Mil
+1155,1983,NBA,New Jersey Nets,0.01,True,NJ
+1156,1983,NBA,New York Knicks,0.13,True,NY
+1157,1983,NBA,Philadelphia 76ers,-0.14,True,Phi
+1158,1983,NBA,Phoenix Suns,-0.45,True,Pho
+1159,1983,NBA,Portland Trail Blazers,-0.25,True,Por
+1160,1983,NBA,San Antonio Spurs,-0.56,True,SA
+1161,1983,NBA,San Diego Clippers,0.22,False,SD
+1162,1983,NBA,Seattle SuperSonics,-0.33,True,Sea
+1163,1983,NBA,Utah Jazz,-0.03,False,Uta
+1164,1983,NBA,Washington Bullets,0.33,False,WsB
+1165,1983,NBA,League Average,0.0,False,LGAvg
+1166,1982,NBA,Atlanta Hawks,0.27,True,Atl
+1167,1982,NBA,Boston Celtics,-0.03,True,Bos
+1168,1982,NBA,Chicago Bulls,0.45,False,Chi
+1169,1982,NBA,Cleveland Cavaliers,0.74,False,Cle
+1170,1982,NBA,Dallas Mavericks,-0.06,False,Dal
+1171,1982,NBA,Denver Nuggets,-0.4,True,Den
+1172,1982,NBA,Detroit Pistons,0.28,False,Det
+1173,1982,NBA,Golden State Warriors,-0.24,False,GS
+1174,1982,NBA,Houston Rockets,-0.36,True,Hou
+1175,1982,NBA,Indiana Pacers,0.38,False,Ind
+1176,1982,NBA,Kansas City Kings,-0.15,False,KC
+1177,1982,NBA,Los Angeles Lakers,-0.5,True,LAL
+1178,1982,NBA,Milwaukee Bucks,-0.1,True,Mil
+1179,1982,NBA,New Jersey Nets,0.18,True,NJ
+1180,1982,NBA,New York Knicks,0.52,False,NY
+1181,1982,NBA,Philadelphia 76ers,0.0,True,Phi
+1182,1982,NBA,Phoenix Suns,-0.4,True,Pho
+1183,1982,NBA,Portland Trail Blazers,-0.21,False,Por
+1184,1982,NBA,San Antonio Spurs,-0.52,True,SA
+1185,1982,NBA,San Diego Clippers,0.34,False,SD
+1186,1982,NBA,Seattle SuperSonics,-0.45,True,Sea
+1187,1982,NBA,Utah Jazz,0.03,False,Uta
+1188,1982,NBA,Washington Bullets,0.19,True,WsB
+1189,1982,NBA,League Average,0.0,False,LGAvg
+1190,1981,NBA,Atlanta Hawks,0.73,False,Atl
+1191,1981,NBA,Boston Celtics,0.17,True,Bos
+1192,1981,NBA,Chicago Bulls,0.37,True,Chi
+1193,1981,NBA,Cleveland Cavaliers,0.7,False,Cle
+1194,1981,NBA,Dallas Mavericks,0.07,False,Dal
+1195,1981,NBA,Denver Nuggets,-0.47,False,Den
+1196,1981,NBA,Detroit Pistons,0.74,False,Det
+1197,1981,NBA,Golden State Warriors,-0.23,False,GS
+1198,1981,NBA,Houston Rockets,-0.53,True,Hou
+1199,1981,NBA,Indiana Pacers,0.32,True,Ind
+1200,1981,NBA,Kansas City Kings,-0.51,True,KC
+1201,1981,NBA,Los Angeles Lakers,-0.57,True,LAL
+1202,1981,NBA,Milwaukee Bucks,-0.13,True,Mil
+1203,1981,NBA,New Jersey Nets,0.87,False,NJ
+1204,1981,NBA,New York Knicks,0.38,True,NY
+1205,1981,NBA,Philadelphia 76ers,-0.09,True,Phi
+1206,1981,NBA,Phoenix Suns,-0.68,True,Pho
+1207,1981,NBA,Portland Trail Blazers,-0.37,True,Por
+1208,1981,NBA,San Antonio Spurs,-0.7,True,SA
+1209,1981,NBA,San Diego Clippers,-0.2,False,SD
+1210,1981,NBA,Seattle SuperSonics,-0.2,False,Sea
+1211,1981,NBA,Utah Jazz,-0.1,False,Uta
+1212,1981,NBA,Washington Bullets,0.41,False,WsB
+1213,1981,NBA,League Average,0.0,False,LGAvg
+1214,1980,NBA,Atlanta Hawks,-0.09,True,Atl
+1215,1980,NBA,Boston Celtics,-0.42,True,Bos
+1216,1980,NBA,Chicago Bulls,0.08,False,Chi
+1217,1980,NBA,Cleveland Cavaliers,0.09,False,Cle
+1218,1980,NBA,Denver Nuggets,0.2,False,Den
+1219,1980,NBA,Detroit Pistons,0.67,False,Det
+1220,1980,NBA,Golden State Warriors,0.2,False,GS
+1221,1980,NBA,Houston Rockets,0.1,True,Hou
+1222,1980,NBA,Indiana Pacers,0.16,False,Ind
+1223,1980,NBA,Kansas City Kings,-0.32,True,KC
+1224,1980,NBA,Los Angeles Lakers,-0.51,True,LAL
+1225,1980,NBA,Milwaukee Bucks,-0.37,True,Mil
+1226,1980,NBA,New Jersey Nets,0.19,False,NJ
+1227,1980,NBA,New York Knicks,0.19,False,NY
+1228,1980,NBA,Philadelphia 76ers,-0.18,True,Phi
+1229,1980,NBA,Phoenix Suns,-0.35,True,Pho
+1230,1980,NBA,Portland Trail Blazers,-0.05,True,Por
+1231,1980,NBA,San Antonio Spurs,0.13,True,SA
+1232,1980,NBA,San Diego Clippers,0.18,False,SD
+1233,1980,NBA,Seattle SuperSonics,-0.42,True,Sea
+1234,1980,NBA,Utah Jazz,0.31,False,Uta
+1235,1980,NBA,Washington Bullets,0.28,True,WsB
+1236,1980,NBA,League Average,0.0,False,LGAvg
+1237,1979,NBA,Atlanta Hawks,-0.16,True,Atl
+1238,1979,NBA,Boston Celtics,0.27,False,Bos
+1239,1979,NBA,Chicago Bulls,0.18,False,Chi
+1240,1979,NBA,Cleveland Cavaliers,0.15,False,Cle
+1241,1979,NBA,Denver Nuggets,-0.04,True,Den
+1242,1979,NBA,Detroit Pistons,0.07,False,Det
+1243,1979,NBA,Golden State Warriors,0.08,False,GS
+1244,1979,NBA,Houston Rockets,-0.06,True,Hou
+1245,1979,NBA,Indiana Pacers,0.19,False,Ind
+1246,1979,NBA,Kansas City Kings,-0.15,True,KC
+1247,1979,NBA,Los Angeles Lakers,-0.12,True,LAL
+1248,1979,NBA,Milwaukee Bucks,-0.1,False,Mil
+1249,1979,NBA,New Jersey Nets,0.17,True,NJ
+1250,1979,NBA,New Orleans Jazz,0.28,False,NOJ
+1251,1979,NBA,New York Knicks,0.09,False,NY
+1252,1979,NBA,Philadelphia 76ers,-0.11,True,Phi
+1253,1979,NBA,Phoenix Suns,-0.15,True,Pho
+1254,1979,NBA,Portland Trail Blazers,-0.14,True,Por
+1255,1979,NBA,San Antonio Spurs,-0.21,True,SA
+1256,1979,NBA,San Diego Clippers,0.02,False,SD
+1257,1979,NBA,Seattle SuperSonics,-0.03,True,Sea
+1258,1979,NBA,Washington Bullets,-0.24,True,WsB
+1259,1979,NBA,League Average,0.0,False,LGAvg
