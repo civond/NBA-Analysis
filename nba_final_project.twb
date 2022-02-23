@@ -1,0 +1,1842 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20183.18.1018.1932                               -->
+<workbook source-build='2018.3.0 (20183.18.1018.1932)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <WindowsPersistSimpleIdentifiers />
+    <ZoneBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='advanced_stats_filtered' inline='true' name='federated.1i4k59r0k914qw131igvq101g77a' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='advanced_stats_filtered' name='textscan.0e1pwwy1ep3ije14891o50ofw8vp'>
+            <connection class='textscan' directory='/Users/jack/Downloads' filename='advanced_stats_filtered.csv' password='' port='0' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.0e1pwwy1ep3ije14891o50ofw8vp' name='advanced_stats_filtered.csv' table='[advanced_stats_filtered#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='integer' name='season' ordinal='1' />
+            <column datatype='string' name='player' ordinal='2' />
+            <column datatype='real' name='player_efficiency_rating' ordinal='3' />
+            <column datatype='real' name='true_shooting_percentage' ordinal='4' />
+            <column datatype='real' name='three_point_attempt_rate' ordinal='5' />
+            <column datatype='real' name='free_throw_attempt_rate' ordinal='6' />
+            <column datatype='real' name='offensive_rebound_percentage' ordinal='7' />
+            <column datatype='real' name='defensive_rebound_percentage' ordinal='8' />
+            <column datatype='real' name='total_rebound_percentage' ordinal='9' />
+            <column datatype='real' name='assist_percentage' ordinal='10' />
+            <column datatype='real' name='steal_percentage' ordinal='11' />
+            <column datatype='real' name='block_percentage' ordinal='12' />
+            <column datatype='real' name='usage_percentage' ordinal='13' />
+            <column datatype='real' name='offensive_win_shares' ordinal='14' />
+            <column datatype='real' name='defensive_win_shares' ordinal='15' />
+            <column datatype='real' name='win_shares' ordinal='16' />
+            <column datatype='real' name='win_shares_per_48_min' ordinal='17' />
+            <column datatype='real' name='offensive_box_plus/minus' ordinal='18' />
+            <column datatype='real' name='defensive_box_plus/minus' ordinal='19' />
+            <column datatype='real' name='box_plus/minus' ordinal='20' />
+            <column datatype='real' name='value_over_replacement_plyr' ordinal='21' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[advanced_stats_filtered.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[advanced_stats_filtered.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>season</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[season]</local-name>
+            <parent-name>[advanced_stats_filtered.csv]</parent-name>
+            <remote-alias>season</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>player</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[player]</local-name>
+            <parent-name>[advanced_stats_filtered.csv]</parent-name>
+            <remote-alias>player</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>player_efficiency_rating</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[player_efficiency_rating]</local-name>
+            <parent-name>[advanced_stats_filtered.csv]</parent-name>
+            <remote-alias>player_efficiency_rating</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>true_shooting_percentage</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[true_shooting_percentage]</local-name>
+            <parent-name>[advanced_stats_filtered.csv]</parent-name>
+            <remote-alias>true_shooting_percentage</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>three_point_attempt_rate</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[three_point_attempt_rate]</local-name>
+            <parent-name>[advanced_stats_filtered.csv]</parent-name>
+            <remote-alias>three_point_attempt_rate</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>free_throw_attempt_rate</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[free_throw_attempt_rate]</local-name>
+            <parent-name>[advanced_stats_filtered.csv]</parent-name>
+            <remote-alias>free_throw_attempt_rate</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>offensive_rebound_percentage</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[offensive_rebound_percentage]</local-name>
+            <parent-name>[advanced_stats_filtered.csv]</parent-name>
+            <remote-alias>offensive_rebound_percentage</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>defensive_rebound_percentage</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[defensive_rebound_percentage]</local-name>
+            <parent-name>[advanced_stats_filtered.csv]</parent-name>
+            <remote-alias>defensive_rebound_percentage</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total_rebound_percentage</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[total_rebound_percentage]</local-name>
+            <parent-name>[advanced_stats_filtered.csv]</parent-name>
+            <remote-alias>total_rebound_percentage</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>assist_percentage</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[assist_percentage]</local-name>
+            <parent-name>[advanced_stats_filtered.csv]</parent-name>
+            <remote-alias>assist_percentage</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>steal_percentage</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[steal_percentage]</local-name>
+            <parent-name>[advanced_stats_filtered.csv]</parent-name>
+            <remote-alias>steal_percentage</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>block_percentage</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[block_percentage]</local-name>
+            <parent-name>[advanced_stats_filtered.csv]</parent-name>
+            <remote-alias>block_percentage</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>usage_percentage</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[usage_percentage]</local-name>
+            <parent-name>[advanced_stats_filtered.csv]</parent-name>
+            <remote-alias>usage_percentage</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>offensive_win_shares</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[offensive_win_shares]</local-name>
+            <parent-name>[advanced_stats_filtered.csv]</parent-name>
+            <remote-alias>offensive_win_shares</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>defensive_win_shares</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[defensive_win_shares]</local-name>
+            <parent-name>[advanced_stats_filtered.csv]</parent-name>
+            <remote-alias>defensive_win_shares</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>win_shares</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[win_shares]</local-name>
+            <parent-name>[advanced_stats_filtered.csv]</parent-name>
+            <remote-alias>win_shares</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>win_shares_per_48_min</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[win_shares_per_48_min]</local-name>
+            <parent-name>[advanced_stats_filtered.csv]</parent-name>
+            <remote-alias>win_shares_per_48_min</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>offensive_box_plus/minus</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[offensive_box_plus/minus]</local-name>
+            <parent-name>[advanced_stats_filtered.csv]</parent-name>
+            <remote-alias>offensive_box_plus/minus</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>defensive_box_plus/minus</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[defensive_box_plus/minus]</local-name>
+            <parent-name>[advanced_stats_filtered.csv]</parent-name>
+            <remote-alias>defensive_box_plus/minus</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>box_plus/minus</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[box_plus/minus]</local-name>
+            <parent-name>[advanced_stats_filtered.csv]</parent-name>
+            <remote-alias>box_plus/minus</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>value_over_replacement_plyr</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[value_over_replacement_plyr]</local-name>
+            <parent-name>[advanced_stats_filtered.csv]</parent-name>
+            <remote-alias>value_over_replacement_plyr</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column caption='Assist Percentage' datatype='real' name='[assist_percentage]' role='measure' type='quantitative' />
+      <column caption='Block Percentage' datatype='real' name='[block_percentage]' role='measure' type='quantitative' />
+      <column caption='Box Plus/Minus' datatype='real' name='[box_plus/minus]' role='measure' type='quantitative' />
+      <column caption='Defensive Box Plus/Minus' datatype='real' name='[defensive_box_plus/minus]' role='measure' type='quantitative' />
+      <column caption='Defensive Rebound Percentage' datatype='real' name='[defensive_rebound_percentage]' role='measure' type='quantitative' />
+      <column caption='Defensive Win Shares' datatype='real' name='[defensive_win_shares]' role='measure' type='quantitative' />
+      <column caption='Free Throw Attempt Rate' datatype='real' name='[free_throw_attempt_rate]' role='measure' type='quantitative' />
+      <column caption='Offensive Box Plus/Minus' datatype='real' name='[offensive_box_plus/minus]' role='measure' type='quantitative' />
+      <column caption='Offensive Rebound Percentage' datatype='real' name='[offensive_rebound_percentage]' role='measure' type='quantitative' />
+      <column caption='Offensive Win Shares' datatype='real' name='[offensive_win_shares]' role='measure' type='quantitative' />
+      <column caption='Player' datatype='string' name='[player]' role='dimension' type='nominal' />
+      <column caption='Player Efficiency Rating' datatype='real' name='[player_efficiency_rating]' role='measure' type='quantitative' />
+      <column caption='Season' datatype='integer' name='[season]' role='measure' type='quantitative' />
+      <column caption='Steal Percentage' datatype='real' name='[steal_percentage]' role='measure' type='quantitative' />
+      <column caption='Three Point Attempt Rate' datatype='real' name='[three_point_attempt_rate]' role='measure' type='quantitative' />
+      <column caption='Total Rebound Percentage' datatype='real' name='[total_rebound_percentage]' role='measure' type='quantitative' />
+      <column caption='True Shooting Percentage' datatype='real' name='[true_shooting_percentage]' role='measure' type='quantitative' />
+      <column caption='Usage Percentage' datatype='real' name='[usage_percentage]' role='measure' type='quantitative' />
+      <column caption='Value Over Replacement Plyr' datatype='real' name='[value_over_replacement_plyr]' role='measure' type='quantitative' />
+      <column caption='Win Shares' datatype='real' name='[win_shares]' role='measure' type='quantitative' />
+      <column caption='Win Shares Per 48 Min' datatype='real' name='[win_shares_per_48_min]' role='measure' type='quantitative' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.137931' measure-ordering='alphabetic' measure-percentage='0.862069' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+    </datasource>
+    <datasource caption='player_totals_filtered' inline='true' name='federated.0kk893d1fk5moe16lk3n1128ubzr' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='player_totals_filtered' name='textscan.0fqvu1s0zludr710mk8a21sytbmi'>
+            <connection class='textscan' directory='/Users/jack/Downloads' filename='player_totals_filtered.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.0fqvu1s0zludr710mk8a21sytbmi' name='player_totals_filtered.csv' table='[player_totals_filtered#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='integer' name='season_id' ordinal='1' />
+            <column datatype='integer' name='season' ordinal='2' />
+            <column datatype='integer' name='player_id' ordinal='3' />
+            <column datatype='string' name='player' ordinal='4' />
+            <column datatype='string' name='position' ordinal='5' />
+            <column datatype='real' name='age' ordinal='6' />
+            <column datatype='integer' name='experience' ordinal='7' />
+            <column datatype='string' name='league' ordinal='8' />
+            <column datatype='string' name='team' ordinal='9' />
+            <column datatype='real' name='games' ordinal='10' />
+            <column datatype='real' name='games_started' ordinal='11' />
+            <column datatype='real' name='minutes_played' ordinal='12' />
+            <column datatype='real' name='fieldgoals' ordinal='13' />
+            <column datatype='real' name='fieldgoals_attemped' ordinal='14' />
+            <column datatype='real' name='three_points_made' ordinal='15' />
+            <column datatype='real' name='three_point_attempts' ordinal='16' />
+            <column datatype='real' name='two_point_made' ordinal='17' />
+            <column datatype='real' name='two_point_attempts' ordinal='18' />
+            <column datatype='real' name='freethrows_made' ordinal='19' />
+            <column datatype='real' name='freethrows_attempted' ordinal='20' />
+            <column datatype='real' name='offensive_rebounds' ordinal='21' />
+            <column datatype='real' name='defensive_rebounds' ordinal='22' />
+            <column datatype='real' name='total_rebounds' ordinal='23' />
+            <column datatype='real' name='assists' ordinal='24' />
+            <column datatype='real' name='steals' ordinal='25' />
+            <column datatype='real' name='blocks' ordinal='26' />
+            <column datatype='real' name='turnovers' ordinal='27' />
+            <column datatype='real' name='personal_fouls' ordinal='28' />
+            <column datatype='real' name='points' ordinal='29' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[player_totals_filtered.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[player_totals_filtered.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>season_id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[season_id]</local-name>
+            <parent-name>[player_totals_filtered.csv]</parent-name>
+            <remote-alias>season_id</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>season</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[season]</local-name>
+            <parent-name>[player_totals_filtered.csv]</parent-name>
+            <remote-alias>season</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>player_id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[player_id]</local-name>
+            <parent-name>[player_totals_filtered.csv]</parent-name>
+            <remote-alias>player_id</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>player</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[player]</local-name>
+            <parent-name>[player_totals_filtered.csv]</parent-name>
+            <remote-alias>player</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>position</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[position]</local-name>
+            <parent-name>[player_totals_filtered.csv]</parent-name>
+            <remote-alias>position</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>age</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[age]</local-name>
+            <parent-name>[player_totals_filtered.csv]</parent-name>
+            <remote-alias>age</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>experience</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[experience]</local-name>
+            <parent-name>[player_totals_filtered.csv]</parent-name>
+            <remote-alias>experience</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>league</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[league]</local-name>
+            <parent-name>[player_totals_filtered.csv]</parent-name>
+            <remote-alias>league</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>team</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[team]</local-name>
+            <parent-name>[player_totals_filtered.csv]</parent-name>
+            <remote-alias>team</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>games</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[games]</local-name>
+            <parent-name>[player_totals_filtered.csv]</parent-name>
+            <remote-alias>games</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>games_started</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[games_started]</local-name>
+            <parent-name>[player_totals_filtered.csv]</parent-name>
+            <remote-alias>games_started</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>minutes_played</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[minutes_played]</local-name>
+            <parent-name>[player_totals_filtered.csv]</parent-name>
+            <remote-alias>minutes_played</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>fieldgoals</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[fieldgoals]</local-name>
+            <parent-name>[player_totals_filtered.csv]</parent-name>
+            <remote-alias>fieldgoals</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>fieldgoals_attemped</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[fieldgoals_attemped]</local-name>
+            <parent-name>[player_totals_filtered.csv]</parent-name>
+            <remote-alias>fieldgoals_attemped</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>three_points_made</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[three_points_made]</local-name>
+            <parent-name>[player_totals_filtered.csv]</parent-name>
+            <remote-alias>three_points_made</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>three_point_attempts</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[three_point_attempts]</local-name>
+            <parent-name>[player_totals_filtered.csv]</parent-name>
+            <remote-alias>three_point_attempts</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>two_point_made</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[two_point_made]</local-name>
+            <parent-name>[player_totals_filtered.csv]</parent-name>
+            <remote-alias>two_point_made</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>two_point_attempts</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[two_point_attempts]</local-name>
+            <parent-name>[player_totals_filtered.csv]</parent-name>
+            <remote-alias>two_point_attempts</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>freethrows_made</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[freethrows_made]</local-name>
+            <parent-name>[player_totals_filtered.csv]</parent-name>
+            <remote-alias>freethrows_made</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>freethrows_attempted</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[freethrows_attempted]</local-name>
+            <parent-name>[player_totals_filtered.csv]</parent-name>
+            <remote-alias>freethrows_attempted</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>offensive_rebounds</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[offensive_rebounds]</local-name>
+            <parent-name>[player_totals_filtered.csv]</parent-name>
+            <remote-alias>offensive_rebounds</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>defensive_rebounds</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[defensive_rebounds]</local-name>
+            <parent-name>[player_totals_filtered.csv]</parent-name>
+            <remote-alias>defensive_rebounds</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total_rebounds</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[total_rebounds]</local-name>
+            <parent-name>[player_totals_filtered.csv]</parent-name>
+            <remote-alias>total_rebounds</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>assists</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[assists]</local-name>
+            <parent-name>[player_totals_filtered.csv]</parent-name>
+            <remote-alias>assists</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>steals</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[steals]</local-name>
+            <parent-name>[player_totals_filtered.csv]</parent-name>
+            <remote-alias>steals</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>blocks</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[blocks]</local-name>
+            <parent-name>[player_totals_filtered.csv]</parent-name>
+            <remote-alias>blocks</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>turnovers</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[turnovers]</local-name>
+            <parent-name>[player_totals_filtered.csv]</parent-name>
+            <remote-alias>turnovers</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>personal_fouls</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[personal_fouls]</local-name>
+            <parent-name>[player_totals_filtered.csv]</parent-name>
+            <remote-alias>personal_fouls</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>points</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[points]</local-name>
+            <parent-name>[player_totals_filtered.csv]</parent-name>
+            <remote-alias>points</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column aggregation='Sum' caption='Age' datatype='real' name='[age]' role='dimension' type='ordinal' />
+      <column caption='Assists' datatype='real' name='[assists]' role='measure' type='quantitative' />
+      <column caption='Blocks' datatype='real' name='[blocks]' role='measure' type='quantitative' />
+      <column caption='Defensive Rebounds' datatype='real' name='[defensive_rebounds]' role='measure' type='quantitative' />
+      <column caption='Experience' datatype='integer' name='[experience]' role='measure' type='quantitative' />
+      <column caption='Fieldgoals' datatype='real' name='[fieldgoals]' role='measure' type='quantitative' />
+      <column caption='Fieldgoals Attemped' datatype='real' name='[fieldgoals_attemped]' role='measure' type='quantitative' />
+      <column caption='Freethrows Attempted' datatype='real' name='[freethrows_attempted]' role='measure' type='quantitative' />
+      <column caption='Freethrows Made' datatype='real' name='[freethrows_made]' role='measure' type='quantitative' />
+      <column caption='Games' datatype='real' name='[games]' role='measure' type='quantitative' />
+      <column caption='Games Started' datatype='real' name='[games_started]' role='measure' type='quantitative' />
+      <column caption='League' datatype='string' name='[league]' role='dimension' type='nominal' />
+      <column caption='Minutes Played' datatype='real' name='[minutes_played]' role='measure' type='quantitative' />
+      <column caption='Offensive Rebounds' datatype='real' name='[offensive_rebounds]' role='measure' type='quantitative' />
+      <column caption='Personal Fouls' datatype='real' name='[personal_fouls]' role='measure' type='quantitative' />
+      <column caption='Player' datatype='string' name='[player]' role='dimension' type='nominal' />
+      <column caption='Player Id' datatype='integer' name='[player_id]' role='dimension' type='ordinal' />
+      <column caption='Points' datatype='real' name='[points]' role='measure' type='quantitative' />
+      <column caption='Position' datatype='string' name='[position]' role='dimension' type='nominal' />
+      <column aggregation='Sum' caption='Season' datatype='integer' name='[season]' role='dimension' type='ordinal' />
+      <column caption='Season Id' datatype='integer' name='[season_id]' role='dimension' type='ordinal' />
+      <column caption='Steals' datatype='real' name='[steals]' role='measure' type='quantitative' />
+      <column caption='Team' datatype='string' name='[team]' role='dimension' type='nominal' />
+      <column caption='Three Point Attempts' datatype='real' name='[three_point_attempts]' role='measure' type='quantitative' />
+      <column caption='Three Points Made' datatype='real' name='[three_points_made]' role='measure' type='quantitative' />
+      <column caption='Total Rebounds' datatype='real' name='[total_rebounds]' role='measure' type='quantitative' />
+      <column caption='Turnovers' datatype='real' name='[turnovers]' role='measure' type='quantitative' />
+      <column caption='Two Point Attempts' datatype='real' name='[two_point_attempts]' role='measure' type='quantitative' />
+      <column caption='Two Point Made' datatype='real' name='[two_point_made]' role='measure' type='quantitative' />
+      <column-instance column='[season]' derivation='None' name='[none:season:ok]' pivot='key' type='ordinal' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.231527' measure-ordering='alphabetic' measure-percentage='0.768473' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:season:ok]' palette='blue_10_0' type='palette'>
+            <map to='#2a5783'>
+              <bucket>2021</bucket>
+            </map>
+            <map to='#315e8b'>
+              <bucket>2020</bucket>
+            </map>
+            <map to='#386693'>
+              <bucket>2019</bucket>
+            </map>
+            <map to='#3f6d9a'>
+              <bucket>2018</bucket>
+            </map>
+            <map to='#4574a2'>
+              <bucket>2017</bucket>
+            </map>
+            <map to='#4b7caa'>
+              <bucket>2016</bucket>
+            </map>
+            <map to='#5283b0'>
+              <bucket>2015</bucket>
+            </map>
+            <map to='#5a8bb7'>
+              <bucket>2014</bucket>
+            </map>
+            <map to='#6293bd'>
+              <bucket>2013</bucket>
+            </map>
+            <map to='#6b9cc4'>
+              <bucket>2012</bucket>
+            </map>
+            <map to='#73a4ca'>
+              <bucket>2011</bucket>
+            </map>
+            <map to='#7bacd1'>
+              <bucket>2010</bucket>
+            </map>
+            <map to='#84b3d7'>
+              <bucket>2009</bucket>
+            </map>
+            <map to='#8ebcdd'>
+              <bucket>2008</bucket>
+            </map>
+            <map to='#98c5e3'>
+              <bucket>2007</bucket>
+            </map>
+            <map to='#a2cde8'>
+              <bucket>2006</bucket>
+            </map>
+            <map to='#add5ec'>
+              <bucket>2005</bucket>
+            </map>
+            <map to='#b9ddf1'>
+              <bucket>2004</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+    </datasource>
+    <datasource caption='team_summary_filtered' inline='true' name='federated.0jiyox819d368e15vptbi1sq84o6' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='team_summary_filtered' name='textscan.01qwprz0hvrwn716djvf51wg5xqg'>
+            <connection class='textscan' directory='/Users/jack/Downloads' filename='team_summary_filtered.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.01qwprz0hvrwn716djvf51wg5xqg' name='team_summary_filtered.csv' table='[team_summary_filtered#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='integer' name='season' ordinal='1' />
+            <column datatype='string' name='league' ordinal='2' />
+            <column datatype='string' name='team' ordinal='3' />
+            <column datatype='real' name='strength_of_schedule' ordinal='4' />
+            <column datatype='boolean' name='playoffs' ordinal='5' />
+            <column datatype='string' name='updated_abbreviation' ordinal='6' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[team_summary_filtered.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[team_summary_filtered.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>season</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[season]</local-name>
+            <parent-name>[team_summary_filtered.csv]</parent-name>
+            <remote-alias>season</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>league</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[league]</local-name>
+            <parent-name>[team_summary_filtered.csv]</parent-name>
+            <remote-alias>league</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>team</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[team]</local-name>
+            <parent-name>[team_summary_filtered.csv]</parent-name>
+            <remote-alias>team</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>strength_of_schedule</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[strength_of_schedule]</local-name>
+            <parent-name>[team_summary_filtered.csv]</parent-name>
+            <remote-alias>strength_of_schedule</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>playoffs</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[playoffs]</local-name>
+            <parent-name>[team_summary_filtered.csv]</parent-name>
+            <remote-alias>playoffs</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>updated_abbreviation</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[updated_abbreviation]</local-name>
+            <parent-name>[team_summary_filtered.csv]</parent-name>
+            <remote-alias>updated_abbreviation</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column caption='League' datatype='string' name='[league]' role='dimension' type='nominal' />
+      <column caption='Playoffs' datatype='boolean' name='[playoffs]' role='dimension' type='nominal' />
+      <column aggregation='Sum' caption='Season' datatype='integer' name='[season]' role='dimension' type='ordinal' />
+      <column caption='Strength Of Schedule' datatype='real' name='[strength_of_schedule]' role='measure' type='quantitative' />
+      <column caption='Team' datatype='string' name='[team]' role='dimension' type='nominal' />
+      <column caption='Updated Abbreviation' datatype='string' name='[updated_abbreviation]' role='dimension' type='nominal' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.535304' measure-ordering='alphabetic' measure-percentage='0.464696' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <shared-views>
+    <shared-view name='federated.0kk893d1fk5moe16lk3n1128ubzr'>
+      <datasources>
+        <datasource caption='player_totals_filtered' name='federated.0kk893d1fk5moe16lk3n1128ubzr' />
+      </datasources>
+      <datasource-dependencies datasource='federated.0kk893d1fk5moe16lk3n1128ubzr'>
+        <column-instance column='[player]' derivation='None' name='[none:player:nk]' pivot='key' type='nominal' />
+        <column caption='Player' datatype='string' name='[player]' role='dimension' type='nominal' />
+      </datasource-dependencies>
+      <filter class='categorical' column='[federated.0kk893d1fk5moe16lk3n1128ubzr].[none:player:nk]'>
+        <groupfilter function='member' level='[none:player:nk]' member='&quot;LeBron James&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+      </filter>
+    </shared-view>
+  </shared-views>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Stats For &lt;</run>
+            <run>[federated.0kk893d1fk5moe16lk3n1128ubzr].[none:player:nk]</run>
+            <run>&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='player_totals_filtered' name='federated.0kk893d1fk5moe16lk3n1128ubzr' />
+            <datasource caption='team_summary_filtered' name='federated.0jiyox819d368e15vptbi1sq84o6' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0jiyox819d368e15vptbi1sq84o6'>
+            <column-instance column='[playoffs]' derivation='Attribute' name='[attr:playoffs:nk]' pivot='key' type='nominal' />
+            <column caption='Playoffs' datatype='boolean' name='[playoffs]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <datasource-dependencies datasource='federated.0kk893d1fk5moe16lk3n1128ubzr'>
+            <column caption='Assists' datatype='real' name='[assists]' role='measure' type='quantitative' />
+            <column-instance column='[player]' derivation='None' name='[none:player:nk]' pivot='key' type='nominal' />
+            <column-instance column='[season]' derivation='None' name='[none:season:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[team]' derivation='None' name='[none:team:nk]' pivot='key' type='nominal' />
+            <column caption='Player' datatype='string' name='[player]' role='dimension' type='nominal' />
+            <column caption='Points' datatype='real' name='[points]' role='measure' type='quantitative' />
+            <column aggregation='Sum' caption='Season' datatype='integer' name='[season]' role='dimension' type='ordinal' />
+            <column-instance column='[assists]' derivation='Sum' name='[sum:assists:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[points]' derivation='Sum' name='[sum:points:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[turnovers]' derivation='Sum' name='[sum:turnovers:qk]' pivot='key' type='quantitative' />
+            <column caption='Team' datatype='string' name='[team]' role='dimension' type='nominal' />
+            <column caption='Turnovers' datatype='real' name='[turnovers]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0kk893d1fk5moe16lk3n1128ubzr].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0kk893d1fk5moe16lk3n1128ubzr].[sum:assists:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0kk893d1fk5moe16lk3n1128ubzr].[sum:points:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0kk893d1fk5moe16lk3n1128ubzr].[sum:turnovers:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0kk893d1fk5moe16lk3n1128ubzr].[none:player:nk]</column>
+            <column>[federated.0kk893d1fk5moe16lk3n1128ubzr].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0kk893d1fk5moe16lk3n1128ubzr].[Multiple Values]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows total='true'>([federated.0kk893d1fk5moe16lk3n1128ubzr].[none:season:ok] / ([federated.0kk893d1fk5moe16lk3n1128ubzr].[none:team:nk] / [federated.0jiyox819d368e15vptbi1sq84o6].[attr:playoffs:nk]))</rows>
+        <cols>[federated.0kk893d1fk5moe16lk3n1128ubzr].[:Measure Names]</cols>
+      </table>
+    </worksheet>
+    <worksheet name='Sheet 1 (2)'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Stats For &lt;</run>
+            <run>[federated.0kk893d1fk5moe16lk3n1128ubzr].[none:player:nk]</run>
+            <run>&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='player_totals_filtered' name='federated.0kk893d1fk5moe16lk3n1128ubzr' />
+            <datasource caption='team_summary_filtered' name='federated.0jiyox819d368e15vptbi1sq84o6' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0jiyox819d368e15vptbi1sq84o6'>
+            <column-instance column='[playoffs]' derivation='Attribute' name='[attr:playoffs:nk]' pivot='key' type='nominal' />
+            <column caption='Playoffs' datatype='boolean' name='[playoffs]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <datasource-dependencies datasource='federated.0kk893d1fk5moe16lk3n1128ubzr'>
+            <column caption='Assists' datatype='real' name='[assists]' role='measure' type='quantitative' />
+            <column-instance column='[player]' derivation='None' name='[none:player:nk]' pivot='key' type='nominal' />
+            <column-instance column='[season]' derivation='None' name='[none:season:ok]' pivot='key' type='ordinal' />
+            <column caption='Player' datatype='string' name='[player]' role='dimension' type='nominal' />
+            <column caption='Points' datatype='real' name='[points]' role='measure' type='quantitative' />
+            <column aggregation='Sum' caption='Season' datatype='integer' name='[season]' role='dimension' type='ordinal' />
+            <column-instance column='[assists]' derivation='Sum' name='[sum:assists:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[points]' derivation='Sum' name='[sum:points:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[turnovers]' derivation='Sum' name='[sum:turnovers:qk]' pivot='key' type='quantitative' />
+            <column caption='Turnovers' datatype='real' name='[turnovers]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <slices>
+            <column>[federated.0kk893d1fk5moe16lk3n1128ubzr].[none:player:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0jiyox819d368e15vptbi1sq84o6].[attr:playoffs:nk]' />
+            </encodings>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0kk893d1fk5moe16lk3n1128ubzr].[sum:points:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0jiyox819d368e15vptbi1sq84o6].[attr:playoffs:nk]' />
+            </encodings>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0kk893d1fk5moe16lk3n1128ubzr].[sum:assists:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0jiyox819d368e15vptbi1sq84o6].[attr:playoffs:nk]' />
+            </encodings>
+          </pane>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0kk893d1fk5moe16lk3n1128ubzr].[sum:turnovers:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0jiyox819d368e15vptbi1sq84o6].[attr:playoffs:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>([federated.0kk893d1fk5moe16lk3n1128ubzr].[sum:points:qk] + ([federated.0kk893d1fk5moe16lk3n1128ubzr].[sum:assists:qk] + [federated.0kk893d1fk5moe16lk3n1128ubzr].[sum:turnovers:qk]))</rows>
+        <cols>[federated.0kk893d1fk5moe16lk3n1128ubzr].[none:season:ok]</cols>
+      </table>
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='player_totals_filtered' name='federated.0kk893d1fk5moe16lk3n1128ubzr' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0kk893d1fk5moe16lk3n1128ubzr'>
+            <column-instance column='[player]' derivation='None' name='[none:player:nk]' pivot='key' type='nominal' />
+            <column-instance column='[position]' derivation='None' name='[none:position:nk]' pivot='key' type='nominal' />
+            <column caption='Player' datatype='string' name='[player]' role='dimension' type='nominal' />
+            <column caption='Position' datatype='string' name='[position]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <slices>
+            <column>[federated.0kk893d1fk5moe16lk3n1128ubzr].[none:player:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.0kk893d1fk5moe16lk3n1128ubzr].[none:position:nk]</rows>
+        <cols />
+      </table>
+    </worksheet>
+    <worksheet name='Sheet 4'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+    </worksheet>
+    <worksheet name='Sheet 5'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='team_summary_filtered' name='federated.0jiyox819d368e15vptbi1sq84o6' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0jiyox819d368e15vptbi1sq84o6'>
+            <column-instance column='[playoffs]' derivation='None' name='[none:playoffs:nk]' pivot='key' type='nominal' />
+            <column caption='Playoffs' datatype='boolean' name='[playoffs]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.0jiyox819d368e15vptbi1sq84o6].[none:playoffs:nk]</rows>
+        <cols />
+      </table>
+    </worksheet>
+    <worksheet name='Sheet 6'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='player_totals_filtered' name='federated.0kk893d1fk5moe16lk3n1128ubzr' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0kk893d1fk5moe16lk3n1128ubzr'>
+            <column-instance column='[player]' derivation='None' name='[none:player:nk]' pivot='key' type='nominal' />
+            <column-instance column='[team]' derivation='None' name='[none:team:nk]' pivot='key' type='nominal' />
+            <column caption='Player' datatype='string' name='[player]' role='dimension' type='nominal' />
+            <column caption='Team' datatype='string' name='[team]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <slices>
+            <column>[federated.0kk893d1fk5moe16lk3n1128ubzr].[none:player:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.0kk893d1fk5moe16lk3n1128ubzr].[none:team:nk]</rows>
+        <cols />
+      </table>
+    </worksheet>
+    <worksheet name='Sheet 7'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Personal stats for &lt;</run>
+            <run>[federated.0kk893d1fk5moe16lk3n1128ubzr].[none:player:nk]</run>
+            <run>&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='player_totals_filtered' name='federated.0kk893d1fk5moe16lk3n1128ubzr' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0kk893d1fk5moe16lk3n1128ubzr'>
+            <column aggregation='Sum' caption='Age' datatype='real' name='[age]' role='dimension' type='ordinal' />
+            <column-instance column='[season]' derivation='Count' name='[cnt:season:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[age]' derivation='Max' name='[max:age:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[player]' derivation='None' name='[none:player:nk]' pivot='key' type='nominal' />
+            <column-instance column='[position]' derivation='None' name='[none:position:nk]' pivot='key' type='nominal' />
+            <column caption='Player' datatype='string' name='[player]' role='dimension' type='nominal' />
+            <column caption='Position' datatype='string' name='[position]' role='dimension' type='nominal' />
+            <column aggregation='Sum' caption='Season' datatype='integer' name='[season]' role='dimension' type='ordinal' />
+          </datasource-dependencies>
+          <slices>
+            <column>[federated.0kk893d1fk5moe16lk3n1128ubzr].[none:player:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.0kk893d1fk5moe16lk3n1128ubzr].[cnt:season:ok] / ([federated.0kk893d1fk5moe16lk3n1128ubzr].[max:age:ok] / [federated.0kk893d1fk5moe16lk3n1128ubzr].[none:position:nk]))</rows>
+        <cols />
+      </table>
+    </worksheet>
+    <worksheet name='Sheet 8'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Minutes played in relation to points per season for &lt;</run>
+            <run>[federated.0kk893d1fk5moe16lk3n1128ubzr].[none:player:nk]</run>
+            <run>&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='player_totals_filtered' name='federated.0kk893d1fk5moe16lk3n1128ubzr' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0kk893d1fk5moe16lk3n1128ubzr'>
+            <column caption='Minutes Played' datatype='real' name='[minutes_played]' role='measure' type='quantitative' />
+            <column-instance column='[player]' derivation='None' name='[none:player:nk]' pivot='key' type='nominal' />
+            <column-instance column='[season]' derivation='None' name='[none:season:ok]' pivot='key' type='ordinal' />
+            <column caption='Player' datatype='string' name='[player]' role='dimension' type='nominal' />
+            <column caption='Points' datatype='real' name='[points]' role='measure' type='quantitative' />
+            <column aggregation='Sum' caption='Season' datatype='integer' name='[season]' role='dimension' type='ordinal' />
+            <column-instance column='[minutes_played]' derivation='Sum' name='[sum:minutes_played:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[points]' derivation='Sum' name='[sum:points:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <slices>
+            <column>[federated.0kk893d1fk5moe16lk3n1128ubzr].[none:player:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0kk893d1fk5moe16lk3n1128ubzr].[none:season:ok]' />
+            </encodings>
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='linear' />
+          </pane>
+        </panes>
+        <rows>[federated.0kk893d1fk5moe16lk3n1128ubzr].[sum:minutes_played:qk]</rows>
+        <cols>[federated.0kk893d1fk5moe16lk3n1128ubzr].[sum:points:qk]</cols>
+      </table>
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name='Dashboard 1'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <datasources>
+        <datasource caption='player_totals_filtered' name='federated.0kk893d1fk5moe16lk3n1128ubzr' />
+      </datasources>
+      <datasource-dependencies datasource='federated.0kk893d1fk5moe16lk3n1128ubzr'>
+        <column-instance column='[player]' derivation='None' name='[none:player:nk]' pivot='key' type='nominal' />
+        <column caption='Player' datatype='string' name='[player]' role='dimension' type='nominal' />
+      </datasource-dependencies>
+      <zones>
+        <zone h='100000' id='2' type='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98000' id='6' param='horz' type='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='98000' id='4' type='layout-basic' w='82400' x='800' y='1000'>
+              <zone h='45563' id='1' name='Sheet 1' w='41200' x='800' y='7875'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='45562' id='3' name='Sheet 1 (2)' w='82400' x='800' y='53438'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='6875' id='7' mode='dropdown' name='Sheet 1 (2)' param='[federated.0kk893d1fk5moe16lk3n1128ubzr].[none:player:nk]' type='filter' w='82400' x='800' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='45563' id='9' name='Sheet 7' w='41200' x='42000' y='7875'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone fixed-size='160' h='98000' id='5' is-fixed='true' param='vert' type='layout-flow' w='16000' x='83200' y='1000'>
+              <zone h='8250' id='8' name='Sheet 1 (2)' pane-specification-id='1' param='[federated.0jiyox819d368e15vptbi1sq84o6].[attr:playoffs:nk]' type='color' w='16000' x='83200' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+    </dashboard>
+  </dashboards>
+  <windows source-height='72'>
+    <window class='worksheet' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{891871D0-19C0-4F99-9C6E-BC11A6719ECD}' />
+    </window>
+    <window class='worksheet' name='Sheet 1 (2)'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card mode='dropdown' param='[federated.0kk893d1fk5moe16lk3n1128ubzr].[none:player:nk]' type='filter' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.0jiyox819d368e15vptbi1sq84o6].[attr:playoffs:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{911578A3-C923-4977-8E8E-3EF03E4291FB}' />
+    </window>
+    <window class='worksheet' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{5E7356D8-2A17-4FF1-B585-72AD7004B4F4}' />
+    </window>
+    <window class='worksheet' name='Sheet 4'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{72D51B1B-5A8B-4EF8-9733-DC9D91203EAB}' />
+    </window>
+    <window class='worksheet' name='Sheet 5'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{D73BA56A-488C-4FF1-9562-E24C9074386F}' />
+    </window>
+    <window class='worksheet' name='Sheet 6'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{D43327D4-CBF0-4EC6-8F36-0474C400BC68}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Sheet 1' />
+        <viewpoint name='Sheet 1 (2)'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Sheet 7' />
+      </viewpoints>
+      <active id='3' />
+      <simple-id uuid='{86E37F54-AA71-4D4D-93DF-BEEF88BB3425}' />
+    </window>
+    <window class='worksheet' name='Sheet 7'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{FA9DF86D-C5DC-45D4-8B21-7306392F40BA}' />
+    </window>
+    <window class='worksheet' name='Sheet 8'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0kk893d1fk5moe16lk3n1128ubzr].[none:season:ok]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{EFFD1285-5CB8-4363-8F43-CDD290768563}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Dashboard 1' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
