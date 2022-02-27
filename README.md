@@ -10,11 +10,23 @@ Our goal is to build a machine learning model that can (with reasonable accuracy
 </ul><br/>
 
 <h2>Machine Learning Model Overview</h2>
-<div><b>Preliminary Data Processing: </b>Originally, I had thought to merge all three datasets together. However, I realized that one dataset (advanced player stats) lacks a team category label, thus I am going to omit merging it with the other two until we figure out a way to label it correctly . I merged the player totals and teams datasets together. <br/><br/>
+<div><b>Preliminary Data Processing: </b>Originally, I had thought to merge all three datasets together. However, I realized that one dataset (advanced player stats) lacks a team category label, thus I am going to omit merging it with the other two until we figure out a way to label it correctly . I merged the player totals and teams datasets together (refer to Cleaned_Data_Alt.ipynb). <br/><br/>
 
 <b>Feature Selection: </b>After merging the datasets, I decided to drop the season, player name, team name and games started because they have no effect on whether the individual makes it to the playoffs. <br/><br/>
 
-<b>Split and Training: </b>Originally, I had thought to merge all three datasets together. However, I realized that one dataset (advanced player stats) lacks a team category label, thus I am going to omit merging it with the other two until we figure out a way to label it correctly . I merged the player totals and teams datasets together. <br/><br/>
+<b>Split and Training: </b>I split the datasets into 70% for training, and the remaining 30% for evaluating our model. <br/><br/>
 
-<b>Model Choice: </b>For the time being, I decided to test out logistic regression, and two ensemble learning classifiers (balanced random forest and easy ensemble adaboost). The reason for this choice is that<br/><br/>
+<b>Model Choice: </b>For the time being, I decided to test two ensemble learning classifiers (balanced random forest and easy ensemble adaboost). Overall, I only achieved an accuracy of ~61% and ~60%, which isn't ideal. I believe that we should try merging the third dataset before trying other methods. <br/><br/>
+Balanced Random Forest:
+
+    Pros - it can handle datasets with higher dimensionalities, and identify most significant variables.
+
+    Cons - May overfit noisy datasets.
+
+Easy Ensemble ADABoost:
+
+    Pros - Not as prone to overfitting as balaced random forest.
+
+    Cons - Requires a quality dataset (outliers/noisy data should be avoided)
+
 </div>
