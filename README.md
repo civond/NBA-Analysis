@@ -32,4 +32,8 @@ Easy Ensemble ADABoost:
 </div>
 
 <h2>Dashboard Concept</h2>
+Tools for final dashboard: Tableau
 Demo Storyboard: <a>https://docs.google.com/presentation/d/1VQ8e_Y5QtRa-lqhXdS1Z7zf5Fnh6p61ZbZFkb3y1EK8/edit#slide=id.p</a>
+- The dashboard will have a selector for the player name and filter the relevant graphs
+- Colors will be used to distinguish the liklihood of making the playoffs
+- The dashboard will be a mixture of machine learning analysis and relevant player stats
