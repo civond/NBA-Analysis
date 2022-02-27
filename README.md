@@ -30,3 +30,6 @@ Easy Ensemble ADABoost:
     Cons - Requires a quality dataset (outliers/noisy data should be avoided)
 
 </div>
+
+<h2>Dashboard Concept</h2>
+Demo Storyboard: <a>https://docs.google.com/presentation/d/1VQ8e_Y5QtRa-lqhXdS1Z7zf5Fnh6p61ZbZFkb3y1EK8/edit#slide=id.p</a>
