@@ -8,7 +8,9 @@ Our goal is to build a machine learning model that can (with reasonable accuracy
 
 <b>Split and Training: </b>I split the datasets into 70% for training, and the remaining 30% for evaluating our model. <br/><br/>
 
-<b>Model Choice: </b>For the time being, I decided to test two ensemble learning classifiers (balanced random forest and easy ensemble adaboost). Overall, I only achieved an accuracy of ~77% for both. <br/><br/>
+<b>Model Choice: </b>I used two ensemble learning classifiers (balanced random forest and easy ensemble adaboost). Overall, I achieved an accuracy of ~77% for balanced random forest, and ~76% for the easy ensemble adaboost. Although our achieved accuracy score is not ideal, we believe that our model does a decent job for predicting our target. There are multiple factors outside of a players individual statistics that influence whether they make it to the playoffs or not. For example, how the team performed as a whole or which specific players were traded, and others.
+
+<br/><br/>
 Balanced Random Forest:
 
     Pros - it can handle datasets with higher dimensionalities, and identify most significant variables.
@@ -23,20 +25,25 @@ Easy Ensemble ADABoost:
 
 </div>
 
-<h2>Dashboard Concept</h2>
-Tools for final dashboard: Tableau
-Demo Storyboard: <a>https://docs.google.com/presentation/d/1VQ8e_Y5QtRa-lqhXdS1Z7zf5Fnh6p61ZbZFkb3y1EK8/edit#slide=id.p</a>
-- The dashboard will have a selector for the player name and filter the relevant graphs
-- Colors will be used to distinguish the liklihood of making the playoffs
-- The dashboard will be a mixture of machine learning analysis and relevant player stats
+<h2>Dashboard</h2>
+Tools for final dashboard: <br/>
+ <a href="link goes here pls">Put the link text in href in <<a>a>, and insert description here! (Tableau Storyboard demo, etc...)</a>
+ <br/>
 
-<br/><br/>
+ <ul>
+ <li>The dashboard will have a selector for the player name and filter the relevant graphs</li>
+ <li>Colors will be used to distinguish the liklihood of making the playoffs</li>
+ <li>The dashboard will be a mixture of machine learning analysis and relevant player stats</li>
+ </ul>
+
+
+<br/>
 
 <h2>Project Structure</h2>
-<img src='Images/possible_workflow.png' width=800px></img>
+(Refer to image below for a visual of how our project was structured)
 <ul>
-    <li>Team Structure: Jack = Tableau visualizations/presentation, Dorian = GitHub repository/machine learning , Ari - database management/cleaning the datasets.</li>
-    <li>Communication protocol - we are communicating via Slack and have scheduled biweekly meetings during classtime.</li>
+    <li>Team Structure: Jack = Tableau visualizations/presentation, Dorian = GitHub repository management/machine learning model, Ari - database management/cleaning the datasets.</li>
     <li>Data used: we are using three NBA datasets downloaded from Kaggle.</li>
-
-</ul><br/>
+</ul>
+<img src='Images/workflow.png' width=800px></img>
+<br/>
