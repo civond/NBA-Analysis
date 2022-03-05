@@ -4,7 +4,7 @@ Our goal is to build a machine learning model that can (with reasonable accuracy
 <h2>Machine Learning Model Overview</h2>
 <div><b>Preliminary Data Processing: </b>We merged three datasets together: advanced_player_stats, team_stats, and player_totals (all downloaded from Kaggle). <br/><br/>
 
-<b>Feature Selection: </b>After merging the datasets, we dropped multiple columns such as: season, team, abbreviation, player_id, etc. because they have no effect on whether a player makes it to the NBA playoffs or not. <br/><br/>
+<b>Feature Selection: </b>After merging the datasets, we dropped multiple columns such as: season, team, abbreviation, player_id, etc. because they have no effect on whether a player makes it to the NBA playoffs or not. Additionally, we filtered the dataset to only include the years 1984-2020.<br/><br/>
 
 <b>Split and Training: </b>I split the datasets into 70% for training, and the remaining 30% for evaluating our model. <br/><br/>
 
