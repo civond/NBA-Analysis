@@ -25,14 +25,11 @@ Easy Ensemble ADABoost:
 
 </div>
 
-<h2>Dashboard</h2>
-Tools for final dashboard: <br/>
- <a href="link goes here pls">Put the link text in href in <<a>a>, and insert description here! (Tableau Storyboard demo, etc...)</a>
- <br/>
+<h2>[Dashboard](https://public.tableau.com/app/profile/jack.hansley/viz/nba_stuff/Story1?publish=yes)</h2>
 
  <ul>
- <li>The dashboard will have a selector for the player name and filter the relevant graphs</li>
- <li>Colors will be used to distinguish the liklihood of making the playoffs</li>
+ <li>The dashboard is focused around trends for different player stats and how they impact a player going to the playoffs</li>
+ <li>Colors are used to distinguish whether a player goes to the playoffs</li>
  <li>The dashboard will be a mixture of machine learning analysis and relevant player stats</li>
  </ul>
 
