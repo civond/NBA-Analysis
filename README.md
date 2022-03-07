@@ -25,7 +25,7 @@ Easy Ensemble ADABoost:
 
 </div>
 
-<h2>[Dashboard](https://public.tableau.com/app/profile/jack.hansley/viz/nba_stuff/Story1?publish=yes)</h2>
+<h2><a href="https://public.tableau.com/app/profile/jack.hansley/viz/nba_stuff/Story1?publish=yes">Dashboard</a></h2>
 
  <ul>
  <li>The dashboard is focused around trends for different player stats and how they impact a player going to the playoffs</li>
