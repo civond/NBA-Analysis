@@ -48,7 +48,9 @@ Easy Ensemble ADABoost:
     Cons - Requires a quality dataset (outliers/noisy data should be avoided)
 
 
-<h2><a href="https://public.tableau.com/app/profile/jack.hansley/viz/nba_stuff/Story1?publish=yes">Storyboard</a></h2>
+<h2><a href="https://public.tableau.com/app/profile/jack.hansley/viz/nba_capstone_project/Story1?publish=yes">Dashboard</a></h2>
+
+<h2><a href="https://docs.google.com/presentation/d/1t6YsnGQhOi9N7vU0Tb5gkCMd-MR3NOp-bDFIssK2VEw/edit#slide=id.gc6fa3c898_0_0">Final Presentation</a></h2>
 
  <ul>
  <li>The dashboard is focused around trends for different player stats and how they impact a player going to the playoffs</li>
