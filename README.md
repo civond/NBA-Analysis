@@ -67,5 +67,5 @@ Easy Ensemble ADABoost:
     <li>Team Structure: Jack = Tableau visualizations/presentation, Dorian = GitHub repository management/machine learning model, Ari - database management/cleaning the datasets.</li>
     <li>Data used: we are using three NBA datasets downloaded from Kaggle.</li>
 </ul>
-<img src='Images/workflow.png' width=800px></img>
+
 <br/>
